@@ -7,6 +7,38 @@
   "description": "Skills and plugins for students, curated by StudentSuite. Install a themed bundle in one command, or install any single entry by name.",
   "plugins": [
     {
+      "name": "13riank-japanese-tutor",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/13rianK/japanese-tutor.git"
+      },
+      "description": "Runs daily Japanese lessons with vocabulary, grammar, and graded practice."
+    },
+    {
+      "name": "eranw2000-google-slides-skill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eranw2000/google-slides-skill.git"
+      },
+      "description": "Redesigns Google Slides decks against branding and visually verifies output."
+    },
+    {
+      "name": "espindolavinicius-linkedin-growth-skill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/espindolavinicius/linkedin-growth-skill.git"
+      },
+      "description": "Audits and rewrites LinkedIn profiles into a monthly content calendar."
+    },
+    {
+      "name": "lishix520-academic-paper-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/lishix520/academic-paper-skills.git"
+      },
+      "description": "Plans and drafts academic papers through reviewer-simulated quality checkpoints."
+    },
+    {
       "name": "0xsarwagya-ontoly",
       "source": {
         "source": "url",
@@ -789,6 +821,14 @@
       "description": "Builds animation-rich HTML presentations from scratch or converted from PowerPoint files."
     },
     {
+      "name": "yarikleto-claude-teacher-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/yarikleto/claude-teacher-plugin.git"
+      },
+      "description": "Tutors any subject via Socratic quizzes, flashcards, and progress tracking."
+    },
+    {
       "name": "alirezarezvani-claude-skills-productivity-capture",
       "source": {
         "source": "git-subdir",
@@ -1031,8 +1071,9 @@
     {
       "name": "writing-humanities-bundle",
       "source": "./bundles/writing-humanities-bundle",
-      "description": "Writing & Humanities skills in one install (10 skills).",
+      "description": "Writing & Humanities skills in one install (11 skills).",
       "dependencies": [
+        "lishix520-academic-paper-skills",
         "basicmachines-co-basic-memory-memory-literary-analysis",
         "composiohq-awesome-claude-skills-content-research-writer",
         "cooperwu-star-a-level-econ-marking-sample-cie-econ-essay",
@@ -1048,8 +1089,9 @@
     {
       "name": "language-learning-bundle",
       "source": "./bundles/language-learning-bundle",
-      "description": "Language Learning skills in one install (2 skills).",
+      "description": "Language Learning skills in one install (3 skills).",
       "dependencies": [
+        "13riank-japanese-tutor",
         "hamsamilton-lang-tutor",
         "m98-fluent"
       ]
@@ -1057,8 +1099,9 @@
     {
       "name": "college-career-bundle",
       "source": "./bundles/college-career-bundle",
-      "description": "College Applications & Career skills in one install (11 skills).",
+      "description": "College Applications & Career skills in one install (12 skills).",
       "dependencies": [
+        "espindolavinicius-linkedin-growth-skill",
         "anaydhawan-oss-launch",
         "borghei-claude-skills-research-grants",
         "composiohq-awesome-claude-skills-domain-name-brainstormer",
@@ -1075,8 +1118,9 @@
     {
       "name": "google-workspace-bundle",
       "source": "./bundles/google-workspace-bundle",
-      "description": "Google Workspace for Students skills in one install (10 skills).",
+      "description": "Google Workspace for Students skills in one install (11 skills).",
       "dependencies": [
+        "eranw2000-google-slides-skill",
         "googleworkspace-gws-calendar",
         "googleworkspace-gws-classroom",
         "googleworkspace-gws-docs",

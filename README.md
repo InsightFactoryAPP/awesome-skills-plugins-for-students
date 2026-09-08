@@ -11,8 +11,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-![Skills](https://img.shields.io/badge/skills-88-blue)
-![Plugins](https://img.shields.io/badge/plugins-18-purple)
+![Skills](https://img.shields.io/badge/skills-92-blue)
+![Plugins](https://img.shields.io/badge/plugins-19-purple)
 [![Changelog](https://img.shields.io/badge/changelog-v1.1.0-lightgrey.svg)](CHANGELOG.md)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-%E2%9C%93-orange)
 ![Cursor](https://img.shields.io/badge/Cursor-%E2%9C%93-1e90ff)
@@ -60,10 +60,10 @@ by its slug in [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.js
 | Study & Productivity | 17 | `claude plugin install study-productivity-bundle` |
 | Coding & CS Education | 18 | `claude plugin install coding-cs-bundle` |
 | STEM Subjects | 8 | `claude plugin install stem-bundle` |
-| Writing & Humanities | 10 | `claude plugin install writing-humanities-bundle` |
-| Language Learning | 2 | `claude plugin install language-learning-bundle` |
-| College Applications & Career | 11 | `claude plugin install college-career-bundle` |
-| Google Workspace for Students | 10 | `claude plugin install google-workspace-bundle` |
+| Writing & Humanities | 11 | `claude plugin install writing-humanities-bundle` |
+| Language Learning | 3 | `claude plugin install language-learning-bundle` |
+| College Applications & Career | 12 | `claude plugin install college-career-bundle` |
+| Google Workspace for Students | 11 | `claude plugin install google-workspace-bundle` |
 
 Every 🔑 entry (needs a paid API key or separate account) is excluded from
 every bundle by design, so a default bundle install never silently expects
@@ -87,11 +87,11 @@ see [CONTRIBUTING.md](CONTRIBUTING.md#install-bundles) for how it's kept in sync
 | 🗂️ | [Study & Productivity](#study--productivity) | 18 skills |
 | 💻 | [Coding & CS Education](#coding--cs-education) | 18 skills |
 | 🔬 | [STEM Subjects](#stem-subjects) | 10 skills |
-| ✍️ | [Writing & Humanities](#writing--humanities) | 10 skills |
-| 🗣️ | [Language Learning](#language-learning) | 2 skills |
-| 🎓 | [College Applications & Career](#college-applications--career) | 11 skills |
-| 🔵 | [Google Workspace for Students](#google-workspace-for-students) | 10 skills |
-| 🧩 | [Plugins](#plugins) | 18 plugins |
+| ✍️ | [Writing & Humanities](#writing--humanities) | 11 skills |
+| 🗣️ | [Language Learning](#language-learning) | 3 skills |
+| 🎓 | [College Applications & Career](#college-applications--career) | 12 skills |
+| 🔵 | [Google Workspace for Students](#google-workspace-for-students) | 11 skills |
+| 🧩 | [Plugins](#plugins) | 19 plugins |
 
 [Install a bundle in one command](#install-a-bundle-in-one-command) &middot; [Compatibility Paths](#compatibility-paths) &middot; [Security Notice](#security-notice) &middot; [Quality Standards](#quality-standards) &middot; [Contributing](#contributing) &middot; [Contributors](#contributors) &middot; [More from StudentSuite](#more-from-studentsuite) &middot; [Sister lists](#sister-lists) &middot; [License](#license)
 
@@ -211,13 +211,14 @@ Math, physics, chemistry, and data analysis helpers.
 Essay structuring, academic research, and literature analysis. See [Language Learning](#language-learning) for target-language translation, vocabulary, and grammar practice.
 
 <details open>
-<summary>Show 10 skills</summary>
+<summary>Show 11 skills</summary>
 
 - **[basicmachines-co/basic-memory - memory-literary-analysis](https://github.com/basicmachines-co/basic-memory/tree/main/skills/memory-literary-analysis)** - Analyzes literary works into a searchable knowledge graph.
 - **[ComposioHQ/awesome-claude-skills - content-research-writer](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/content-research-writer)** - Researches sources, improves hooks, iterates on outlines, and adds citations to essays and articles.
 - **[CooperWu-star/A-Level-Econ-Marking-Sample - cie-econ-essay](https://github.com/CooperWu-star/A-Level-Econ-Marking-Sample/tree/main/cie-econ-essay)** - Marks and writes CIE A-Level Economics essays to grade descriptors.
 - **[davila7/claude-code-templates - email-composer](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/enterprise-communication/email-composer)** - Drafts professional emails, handy for messaging professors or admissions offices.
 - **[kgraph57/paper-writer-skill](https://github.com/kgraph57/paper-writer-skill)** - Drafts IMRAD-structured scientific manuscripts, useful for lab reports and write-ups.
+- **[lishix520/academic-paper-skills](https://github.com/lishix520/academic-paper-skills)** - Plans and drafts academic papers through reviewer-simulated quality checkpoints.
 - **[Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills)** - Skill package for planning and writing research papers.
 - **[NeoLabHQ/context-engineering-kit - write-concisely](https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/docs/skills/write-concisely)** - Applies *The Elements of Style* principles to tighten essays and cut wordiness.
 - **[phuryn/pm-skills - grammar-check](https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/grammar-check)** - Flags grammar, logic, and flow errors with targeted fixes, no full rewrite.
@@ -233,8 +234,9 @@ Essay structuring, academic research, and literature analysis. See [Language Lea
 Translation practice, vocabulary drilling, and grammar correction in a target (non-English) language, for IB Language A/B and IGCSE second-language coursework.
 
 <details open>
-<summary>Show 2 skills</summary>
+<summary>Show 3 skills</summary>
 
+- **[13rianK/japanese-tutor](https://github.com/13rianK/japanese-tutor)** - Runs daily Japanese lessons with vocabulary, grammar, and graded practice.
 - **[hamsamilton/lang-tutor](https://github.com/hamsamilton/lang-tutor)** - Gives grammar corrections and vocabulary help in your target language.
 - **[m98/fluent](https://github.com/m98/fluent)** - Drills vocabulary and corrects target-language writing using spaced repetition.
 
@@ -249,12 +251,13 @@ Personal statements, resume building, interview prep, and side-project launches.
 Several resume tools overlap here. To pick one: **tailored-resume-generator** and **resume-tailoring-skill** do plain tailoring to a single job description; **ResumeSkills** adds ATS-compatibility scoring and interview prep; **career-ops** wraps a full job-search workflow that also scores listings and tracks applications; **resume-tailor-plugin** (under [Plugins](#plugins)) is the same tailoring packaged as a full Claude Code plugin rather than a single skill; and **danielrosehill/Claude-Career-Plugin** (also under [Plugins](#plugins)) bundles resume, cover-letter, and interview-prep commands into one broader career-operations plugin.
 
 <details open>
-<summary>Show 11 skills</summary>
+<summary>Show 12 skills</summary>
 
 - **[AnayDhawan/oss-launch](https://github.com/AnayDhawan/oss-launch)** - Shipped a side project? Scaffold the OSS launch files (README/LICENSE/CI/launch plan) and use it as application signal.
 - **[borghei/Claude-Skills - research/grants](https://github.com/borghei/Claude-Skills/tree/main/research/grants)** - Structures a scholarship or grant proposal around fit, narrative, and budget instead of boilerplate.
 - **[ComposioHQ/awesome-claude-skills - domain-name-brainstormer](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/domain-name-brainstormer)** - 🌐 Generates domain name ideas and checks availability across TLDs for side projects.
 - **[ComposioHQ/awesome-claude-skills - tailored-resume-generator](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/tailored-resume-generator)** - Analyzes job descriptions and tailors resumes to highlight relevant experience and skills.
+- **[espindolavinicius/linkedin-growth-skill](https://github.com/espindolavinicius/linkedin-growth-skill)** - Audits and rewrites LinkedIn profiles into a monthly content calendar.
 - **[kevinryan-au/claude-cover-letter](https://github.com/kevinryan-au/claude-cover-letter)** - Turns a pasted job posting into a tailored, one-page cover letter.
 - **[Paramchoudhary/ResumeSkills](https://github.com/Paramchoudhary/ResumeSkills)** - Resume optimization, ATS scoring, and interview prep skills.
 - **[santifer/career-ops](https://github.com/santifer/career-ops)** - Scores job listings, tailors resumes, and tracks applications for a job search.
@@ -274,8 +277,9 @@ Skills for Google's tools: Docs, Slides, Classroom, and more. Useful if your sch
 **HashemALSKKkAF/exam-prep-mcq** generates exam-prep MCQs like **sickn33/agentic-awesome-skills - examprep-ai** and **pinakdhabu/Exam-prompt** (both under [Study & Productivity](#study--productivity)), but its distinguishing feature is delivering the quiz as a native Google Form.
 
 <details open>
-<summary>Show 10 skills</summary>
+<summary>Show 11 skills</summary>
 
+- **[eranw2000/google-slides-skill](https://github.com/eranw2000/google-slides-skill)** - Redesigns Google Slides decks against branding and visually verifies output.
 - **[googleworkspace/gws-calendar](https://officialskills.sh/googleworkspace/skills/gws-calendar)** - Manage calendars, events, and free/busy queries via the `gws` CLI.
 - **[googleworkspace/gws-classroom](https://officialskills.sh/googleworkspace/skills/gws-classroom)** - Manage Google Classroom classes, rosters, and coursework via the `gws` CLI.
 - **[googleworkspace/gws-docs](https://officialskills.sh/googleworkspace/skills/gws-docs)** - Read and write Google Docs documents via the `gws` CLI.
@@ -298,7 +302,7 @@ These skills require the [Google Workspace CLI (`gws`)](https://officialskills.s
 Full Claude Code, Cursor, or Copilot plugins for students: bundles of commands, agents, hooks, or MCP servers.
 
 <details open>
-<summary>Show 18 plugins</summary>
+<summary>Show 19 plugins</summary>
 
 - **[alirezarezvani/claude-skills - productivity/capture](https://github.com/alirezarezvani/claude-skills/tree/main/productivity/capture)** - Organizes a brain-dump of mixed thoughts, tasks, and ideas into an actionable list.
 - **[alirezarezvani/claude-skills - productivity/deep-work](https://github.com/alirezarezvani/claude-skills/tree/main/productivity/deep-work)** - Time-blocks the day into deep and shallow work with focus blocks, Cal Newport style.
@@ -318,6 +322,7 @@ Full Claude Code, Cursor, or Copilot plugins for students: bundles of commands, 
 - **[obra/superpowers](https://github.com/obra/superpowers)** - 20+ skills for spec-to-code workflows with TDD, brainstorming, and subagent-driven planning commands.
 - **[olegvg/resume-tailor-plugin](https://github.com/olegvg/resume-tailor-plugin)** - Claude Code plugin that tailors your resume to a job post.
 - **[WenyuChiou/zotero-skills](https://github.com/WenyuChiou/zotero-skills)** - Searches, tags, and organizes Zotero references from your agent.
+- **[yarikleto/claude-teacher-plugin](https://github.com/yarikleto/claude-teacher-plugin)** - Tutors any subject via Socratic quizzes, flashcards, and progress tracking.
 
 </details>
 

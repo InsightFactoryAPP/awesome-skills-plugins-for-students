@@ -8,6 +8,15 @@ software), but releases are still tagged so changes are easy to point to.
 
 ## [Unreleased]
 
+### Added (2026-09-08 issue-clearing pass)
+
+- 5 new entries closing #119, #121, #122, #123, and #124: `13rianK/japanese-tutor`
+  (Language Learning), `eranw2000/google-slides-skill` (Google Workspace for
+  Students), `espindolavinicius/linkedin-growth-skill` (College Applications
+  & Career), `lishix520/academic-paper-skills` (Writing & Humanities), and
+  `yarikleto/claude-teacher-plugin` (Plugins). Skills badge now reads 92,
+  Plugins badge now reads 19.
+
 ### Removed
 
 - `ayushsao/Capgemini_essay` (Writing & Humanities) — investigation for #117

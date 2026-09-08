@@ -7,6 +7,7 @@
     "url": "https://github.com/StudentSuite"
   },
   "dependencies": [
+    "13riank-japanese-tutor",
     "hamsamilton-lang-tutor",
     "m98-fluent"
   ]

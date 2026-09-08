@@ -1,5 +1,17 @@
 [
   {
+    "name": "yarikleto/claude-teacher-plugin",
+    "url": "https://github.com/yarikleto/claude-teacher-plugin",
+    "description": "Tutors any subject via Socratic quizzes, flashcards, and progress tracking.",
+    "category": "Plugins",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
     "name": "alirezarezvani/claude-skills - productivity/capture",
     "url": "https://github.com/alirezarezvani/claude-skills/tree/main/productivity/capture",
     "description": "Organizes a brain-dump of mixed thoughts, tasks, and ideas into an actionable list.",

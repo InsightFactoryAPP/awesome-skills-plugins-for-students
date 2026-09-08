@@ -1,5 +1,53 @@
 [
   {
+    "name": "13rianK/japanese-tutor",
+    "url": "https://github.com/13rianK/japanese-tutor",
+    "description": "Runs daily Japanese lessons with vocabulary, grammar, and graded practice.",
+    "category": "Language Learning",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
+    "name": "eranw2000/google-slides-skill",
+    "url": "https://github.com/eranw2000/google-slides-skill",
+    "description": "Redesigns Google Slides decks against branding and visually verifies output.",
+    "category": "Google Workspace for Students",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
+    "name": "espindolavinicius/linkedin-growth-skill",
+    "url": "https://github.com/espindolavinicius/linkedin-growth-skill",
+    "description": "Audits and rewrites LinkedIn profiles into a monthly content calendar.",
+    "category": "College Applications & Career",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
+    "name": "lishix520/academic-paper-skills",
+    "url": "https://github.com/lishix520/academic-paper-skills",
+    "description": "Plans and drafts academic papers through reviewer-simulated quality checkpoints.",
+    "category": "Writing & Humanities",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
     "name": "0xsarwagya/ontoly",
     "url": "https://github.com/0xsarwagya/ontoly",
     "description": "Maps codebases into graph-backed architecture evidence.",
