@@ -8,6 +8,18 @@ software), but releases are still tagged so changes are easy to point to.
 
 ## [Unreleased]
 
+### Removed
+
+- `ayushsao/Capgemini_essay` (Writing & Humanities) — investigation for #117
+  found it's a standalone Next.js/TypeScript web app with no `SKILL.md`,
+  `.claude/skills/`, `.cursor/rules/`, or `.gemini/` integration; its
+  `.github/copilot-instructions.md` only gives Copilot dev-workflow guidance
+  for maintaining the app's own codebase (tech stack, coding conventions),
+  not a reusable essay-grading capability a student's agent gains by
+  installing it, so it doesn't meet the Quality Standards' "Works" bar. The
+  Writing & Humanities comparison note referencing it was also removed.
+  Closes #117.
+
 ## [1.1.0] - 2026-08-23
 
 ### Added (2026-08-23 issue-clearing pass)

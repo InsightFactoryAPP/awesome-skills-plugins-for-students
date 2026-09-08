@@ -132,18 +132,6 @@
     ]
   },
   {
-    "name": "ayushsao/Capgemini_essay",
-    "url": "https://github.com/ayushsao/Capgemini_essay",
-    "description": "Analyzes student essays and scores grammar, vocabulary, and structure.",
-    "category": "Writing & Humanities",
-    "marker": null,
-    "supported_tools": [
-      "claude-code",
-      "cursor",
-      "copilot"
-    ]
-  },
-  {
     "name": "basicmachines-co/basic-memory - memory-literary-analysis",
     "url": "https://github.com/basicmachines-co/basic-memory/tree/main/skills/memory-literary-analysis",
     "description": "Analyzes literary works into a searchable knowledge graph.",

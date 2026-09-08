@@ -11,7 +11,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-![Skills](https://img.shields.io/badge/skills-89-blue)
+![Skills](https://img.shields.io/badge/skills-88-blue)
 ![Plugins](https://img.shields.io/badge/plugins-18-purple)
 [![Changelog](https://img.shields.io/badge/changelog-v1.1.0-lightgrey.svg)](CHANGELOG.md)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-%E2%9C%93-orange)
@@ -60,7 +60,7 @@ by its slug in [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.js
 | Study & Productivity | 17 | `claude plugin install study-productivity-bundle` |
 | Coding & CS Education | 18 | `claude plugin install coding-cs-bundle` |
 | STEM Subjects | 8 | `claude plugin install stem-bundle` |
-| Writing & Humanities | 11 | `claude plugin install writing-humanities-bundle` |
+| Writing & Humanities | 10 | `claude plugin install writing-humanities-bundle` |
 | Language Learning | 2 | `claude plugin install language-learning-bundle` |
 | College Applications & Career | 11 | `claude plugin install college-career-bundle` |
 | Google Workspace for Students | 10 | `claude plugin install google-workspace-bundle` |
@@ -87,7 +87,7 @@ see [CONTRIBUTING.md](CONTRIBUTING.md#install-bundles) for how it's kept in sync
 | 🗂️ | [Study & Productivity](#study--productivity) | 18 skills |
 | 💻 | [Coding & CS Education](#coding--cs-education) | 18 skills |
 | 🔬 | [STEM Subjects](#stem-subjects) | 10 skills |
-| ✍️ | [Writing & Humanities](#writing--humanities) | 11 skills |
+| ✍️ | [Writing & Humanities](#writing--humanities) | 10 skills |
 | 🗣️ | [Language Learning](#language-learning) | 2 skills |
 | 🎓 | [College Applications & Career](#college-applications--career) | 11 skills |
 | 🔵 | [Google Workspace for Students](#google-workspace-for-students) | 10 skills |
@@ -210,12 +210,9 @@ Math, physics, chemistry, and data analysis helpers.
 
 Essay structuring, academic research, and literature analysis. See [Language Learning](#language-learning) for target-language translation, vocabulary, and grammar practice.
 
-Two entries both flag writing errors. **phuryn/pm-skills - grammar-check** targets grammar, logic, and flow with minimal rewriting; **ayushsao/Capgemini_essay** scores an essay's grammar, vocabulary, and structure and charts the feedback.
-
 <details open>
-<summary>Show 11 skills</summary>
+<summary>Show 10 skills</summary>
 
-- **[ayushsao/Capgemini_essay](https://github.com/ayushsao/Capgemini_essay)** - Analyzes student essays and scores grammar, vocabulary, and structure.
 - **[basicmachines-co/basic-memory - memory-literary-analysis](https://github.com/basicmachines-co/basic-memory/tree/main/skills/memory-literary-analysis)** - Analyzes literary works into a searchable knowledge graph.
 - **[ComposioHQ/awesome-claude-skills - content-research-writer](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/content-research-writer)** - Researches sources, improves hooks, iterates on outlines, and adds citations to essays and articles.
 - **[CooperWu-star/A-Level-Econ-Marking-Sample - cie-econ-essay](https://github.com/CooperWu-star/A-Level-Econ-Marking-Sample/tree/main/cie-econ-essay)** - Marks and writes CIE A-Level Economics essays to grade descriptors.
