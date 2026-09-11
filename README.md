@@ -320,7 +320,7 @@ Full Claude Code, Cursor, or Copilot plugins for students: bundles of commands, 
 - **[jacquardlabs/study-skills](https://github.com/jacquardlabs/study-skills)** - Turns lecture slides into flashcards, quizzes, and study milestones.
 - **[JeanDiable/academic-research-plugin](https://github.com/JeanDiable/academic-research-plugin)** - Plugin for literature surveys, paper reviews, and citation management.
 - **[JoshuaOliphant/claude-plugins - mochi-creator](https://github.com/JoshuaOliphant/claude-plugins/tree/main/plugins/mochi-creator)** - 🔑 Creates evidence-based spaced-repetition flashcards and pushes them to Mochi.
-- **[JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)** - Compresses agent responses into concise caveman-style language, reducing token usage while preserving technical accuracy. Supports Claude Code, Cursor, Copilot, and 30+ other agents.
+- **[JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)** - Compresses agent responses into concise caveman-style language, reducing token usage while preserving technical accuracy.
 - **[K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)** - 140+ science skills covering biology, chemistry, medicine, and 100+ scientific databases.
 - **[kepano/obsidian-skills](https://github.com/kepano/obsidian-skills)** - Reads, writes, and organizes Obsidian notes, canvases, and databases via the Obsidian CLI.
 - **[obra/superpowers](https://github.com/obra/superpowers)** - 20+ skills for spec-to-code workflows with TDD, brainstorming, and subagent-driven planning commands.

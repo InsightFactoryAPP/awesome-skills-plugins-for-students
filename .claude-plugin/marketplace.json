@@ -982,7 +982,7 @@
         "source": "url",
         "url": "https://github.com/JuliusBrussee/caveman.git"
       },
-      "description": "Compresses agent responses into concise caveman-style language, reducing token usage while preserving technical accuracy. Supports Claude Code, Cursor, Copilot, and 30+ other agents."
+      "description": "Compresses agent responses into concise caveman-style language, reducing token usage while preserving technical accuracy."
     },
     {
       "name": "k-dense-ai-scientific-agent-skills",

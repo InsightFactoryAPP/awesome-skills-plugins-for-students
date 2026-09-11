@@ -170,7 +170,7 @@
   {
     "name": "JuliusBrussee/caveman",
     "url": "https://github.com/JuliusBrussee/caveman",
-    "description": "Compresses agent responses into concise caveman-style language, reducing token usage while preserving technical accuracy. Supports Claude Code, Cursor, Copilot, and 30+ other agents.",
+    "description": "Compresses agent responses into concise caveman-style language, reducing token usage while preserving technical accuracy.",
     "category": "Plugins",
     "marker": null,
     "supported_tools": [
