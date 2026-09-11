@@ -550,6 +550,18 @@
     ]
   },
   {
+    "name": "JeremyJC67/super-translator",
+    "url": "https://github.com/JeremyJC67/super-translator",
+    "description": "Translates text and explains it through your mother language.",
+    "category": "Language Learning",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
     "name": "HashemALSKKkAF/exam-prep-mcq",
     "url": "https://github.com/HashemALSKKkAF/exam-prep-mcq",
     "description": "Generates MCQ quizzes from study material and delivers them as a Google Form.",
@@ -898,6 +910,18 @@
     ]
   },
   {
+    "name": "rx290/grant-compass",
+    "url": "https://github.com/rx290/grant-compass",
+    "description": "Finds fully-funded scholarships and matching professors scored against your grades.",
+    "category": "College Applications & Career",
+    "marker": "external-service",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
     "name": "santifer/career-ops",
     "url": "https://github.com/santifer/career-ops",
     "description": "Scores job listings, tailors resumes, and tracks applications for a job search.",
@@ -1047,6 +1071,18 @@
     "description": "Queries the iNaturalist API for biodiversity observation data.",
     "category": "STEM Subjects",
     "marker": "external-service",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
+    "name": "WolframResearch/skills - astro-observation-planner",
+    "url": "https://github.com/WolframResearch/skills/tree/main/skills/astro-observation-planner",
+    "description": "Plans a night's stargazing: twilight, Moon phase, planets, and deep-sky objects.",
+    "category": "STEM Subjects",
+    "marker": "requires-key",
     "supported_tools": [
       "claude-code",
       "cursor",

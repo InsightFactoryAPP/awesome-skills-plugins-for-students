@@ -421,6 +421,14 @@
       "description": "Gives grammar corrections and vocabulary help in your target language."
     },
     {
+      "name": "jeremyjc67-super-translator",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/JeremyJC67/super-translator.git"
+      },
+      "description": "Translates text and explains it through your mother language."
+    },
+    {
       "name": "hashemalskkkaf-exam-prep-mcq",
       "source": {
         "source": "url",
@@ -675,6 +683,14 @@
       "description": "Generates exam answers, notes, and study plans for any university."
     },
     {
+      "name": "rx290-grant-compass",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rx290/grant-compass.git"
+      },
+      "description": "🌐 Finds fully-funded scholarships and matching professors scored against your grades."
+    },
+    {
       "name": "santifer-career-ops",
       "source": {
         "source": "url",
@@ -787,6 +803,16 @@
         "ref": "main"
       },
       "description": "🌐 Queries the iNaturalist API for biodiversity observation data."
+    },
+    {
+      "name": "wolframresearch-skills-astro-observation-planner",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/WolframResearch/skills.git",
+        "path": "skills/astro-observation-planner",
+        "ref": "main"
+      },
+      "description": "🔑 Plans a night's stargazing: twilight, Moon phase, planets, and deep-sky objects."
     },
     {
       "name": "x-tong6-pscher",
@@ -941,6 +967,16 @@
       "description": "Plugin for literature surveys, paper reviews, and citation management."
     },
     {
+      "name": "joshuaoliphant-claude-plugins-mochi-creator",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/JoshuaOliphant/claude-plugins.git",
+        "path": "plugins/mochi-creator",
+        "ref": "main"
+      },
+      "description": "🔑 Creates evidence-based spaced-repetition flashcards and pushes them to Mochi."
+    },
+    {
       "name": "juliusbrussee-caveman",
       "source": {
         "source": "url",
@@ -1056,7 +1092,7 @@
     {
       "name": "stem-bundle",
       "source": "./bundles/stem-bundle",
-      "description": "STEM Subjects skills in one install (8 skills; 2 paid-key skills excluded, install separately).",
+      "description": "STEM Subjects skills in one install (8 skills; 3 paid-key skills excluded, install separately).",
       "dependencies": [
         "abelsr-computational-physics",
         "chrisvoncsefalvay-claude-d3js-skill",
@@ -1089,17 +1125,18 @@
     {
       "name": "language-learning-bundle",
       "source": "./bundles/language-learning-bundle",
-      "description": "Language Learning skills in one install (3 skills).",
+      "description": "Language Learning skills in one install (4 skills).",
       "dependencies": [
         "13riank-japanese-tutor",
         "hamsamilton-lang-tutor",
+        "jeremyjc67-super-translator",
         "m98-fluent"
       ]
     },
     {
       "name": "college-career-bundle",
       "source": "./bundles/college-career-bundle",
-      "description": "College Applications & Career skills in one install (12 skills).",
+      "description": "College Applications & Career skills in one install (13 skills).",
       "dependencies": [
         "espindolavinicius-linkedin-growth-skill",
         "anaydhawan-oss-launch",
@@ -1108,6 +1145,7 @@
         "composiohq-awesome-claude-skills-tailored-resume-generator",
         "kevinryan-au-claude-cover-letter",
         "paramchoudhary-resumeskills",
+        "rx290-grant-compass",
         "santifer-career-ops",
         "shauryagangrade-scout-issue",
         "sourikduttanyu-interview-prep",
