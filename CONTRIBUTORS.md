@@ -14,6 +14,7 @@ against the [Quality Standards](README.md#quality-standards), and open a PR.
 
 - [@0xsarwagya](https://github.com/0xsarwagya) - added a skill entry
 - [@floze-the-genius](https://github.com/floze-the-genius) - added the README count validation check
+- [@meraayman](https://github.com/meraayman) - added a skill entry
 - [@propcgamer20-png](https://github.com/propcgamer20-png) - added student-relevant skills
 - [@ResourceMint](https://github.com/ResourceMint) - added the sister-list cross-link footer
 - [@YourUncleJGD](https://github.com/YourUncleJGD) - added a plugin entry
