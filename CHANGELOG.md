@@ -8,6 +8,20 @@ software), but releases are still tagged so changes are easy to point to.
 
 ## [Unreleased]
 
+### Added (2026-09-11 issue-clearing pass)
+
+- `scripts/check-compat-paths-verified.mjs`, modeled on
+  `check-last-verified.mjs`: validates `data/compat-paths-verified.json` is
+  well-formed JSON, its keys exactly match the five doc URLs in README's
+  Compatibility Paths section, dates are non-future `YYYY-MM-DD`, and keys
+  are sorted. Wired into `.github/workflows/lint.yml` and documented in
+  CONTRIBUTING.md. Closes #130.
+- 4 new entries closing #125, #126, #127, and #128: `JeremyJC67/super-translator`
+  (Language Learning), `WolframResearch/skills - astro-observation-planner`
+  (STEM Subjects, 🔑), `rx290/grant-compass` (College Applications & Career,
+  🌐), and `JoshuaOliphant/claude-plugins - mochi-creator` (Plugins, 🔑).
+  Skills badge now reads 95, Plugins badge now reads 20.
+
 ### Added (2026-09-08 issue-clearing pass)
 
 - 5 new entries closing #119, #121, #122, #123, and #124: `13rianK/japanese-tutor`
