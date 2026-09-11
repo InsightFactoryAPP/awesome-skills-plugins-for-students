@@ -218,8 +218,13 @@ and GitHub's did, both still returning `200` while no longer describing the
 right feature — won't trip it. `data/compat-paths-verified.json` tracks the
 same way: each of the five doc URLs mapped to the date someone last
 hand-confirmed it both resolves *and* still describes the feature the table
-claims it does. There's no CI check for this yet (only a human can judge
-whether page content still matches); treat it as a periodic manual
+claims it does. `scripts/check-compat-paths-verified.mjs` (run in CI
+alongside `check-last-verified.mjs`) checks that the file is valid JSON, that
+its keys exactly match the five doc URLs in the README's Compatibility Paths
+section (no typo'd, stale, or missing entry), that keys are sorted
+alphabetically, and that every value is a non-future `YYYY-MM-DD` date. It
+can't check whether a page's *content* still matches the feature the table
+claims — only a human can judge that; treat it as a periodic manual
 spot-check, the same cadence as a last-verified pass.
 
 ---
@@ -257,6 +262,14 @@ scripts below:
   right — it just checks the shipped file makes sense on its own.
 - `node scripts/check-last-verified.mjs` — see
   [Tracking last-verified dates](#tracking-last-verified-dates) above.
+- `node scripts/check-compat-paths-verified.mjs` — the same shape checks
+  (valid JSON, non-future `YYYY-MM-DD` dates, alphabetically sorted keys) for
+  `data/compat-paths-verified.json`, see
+  [The Compatibility Paths table's doc links](#the-compatibility-paths-tables-doc-links)
+  below. It only checks the file's shape and that its keys exactly match the
+  five doc URLs in README.md's Compatibility Paths section — it can't check
+  that a doc page's *content* still matches, which stays a human judgment
+  call.
 
 Run all of them yourself before opening a PR with:
 
@@ -267,6 +280,7 @@ node scripts/generate-readme.mjs --check
 node scripts/generate-marketplace.mjs --check
 node scripts/check-list-format.mjs
 node scripts/check-last-verified.mjs
+node scripts/check-compat-paths-verified.mjs
 ```
 
 A separate scheduled workflow (`.github/workflows/dead-link-check.yml`) checks every link in README.md, CONTRIBUTING.md, CODE_OF_CONDUCT.md, CHANGELOG.md, SECURITY.md, CONTRIBUTORS.md, and EXAMPLES.md weekly using [lychee](https://github.com/lycheeverse/lychee), configured via `lychee.toml`. Some legitimate sites reject automated requests with a 403 or 429, so those statuses are accepted rather than treated as broken.

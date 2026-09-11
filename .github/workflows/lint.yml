@@ -5,6 +5,7 @@ on:
     paths:
       - README.md
       - data/last-verified.json
+      - data/compat-paths-verified.json
       - data/skills.json
       - data/plugins.json
       - data/schema/entry.schema.json
@@ -14,6 +15,7 @@ on:
       - scripts/check-counts*.mjs
       - scripts/check-markers*.mjs
       - scripts/check-last-verified*.mjs
+      - scripts/check-compat-paths-verified*.mjs
       - scripts/validate-data*.mjs
       - scripts/generate-readme.mjs
       - scripts/generate-marketplace.mjs
@@ -25,6 +27,7 @@ on:
     paths:
       - README.md
       - data/last-verified.json
+      - data/compat-paths-verified.json
       - data/skills.json
       - data/plugins.json
       - data/schema/entry.schema.json
@@ -34,6 +37,7 @@ on:
       - scripts/check-counts*.mjs
       - scripts/check-markers*.mjs
       - scripts/check-last-verified*.mjs
+      - scripts/check-compat-paths-verified*.mjs
       - scripts/validate-data*.mjs
       - scripts/generate-readme.mjs
       - scripts/generate-marketplace.mjs
@@ -51,6 +55,7 @@ jobs:
       - run: node --test scripts/*.test.mjs
       - run: node scripts/check-list-format.mjs
       - run: node scripts/check-last-verified.mjs
+      - run: node scripts/check-compat-paths-verified.mjs
       - run: node scripts/validate-data.mjs
       # Fails if README.md has drifted from data/skills.json + data/plugins.json --
       # contributors edit the data files and run `node scripts/generate-readme.mjs`
