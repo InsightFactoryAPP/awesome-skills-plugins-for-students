@@ -406,6 +406,14 @@
     ]
   },
   {
+    "name": "SteadfastAsArt/geoscience-skills",
+    "url": "https://github.com/SteadfastAsArt/geoscience-skills",
+    "description": "Applies earth science and climate skills: seismic, well logs, 3D modelling, geostatistics.",
+    "category": "STEM Subjects",
+    "marker": null,
+    "supported_tools": ["claude-code", "cursor", "copilot"]
+  },
+  {
     "name": "googlarz/math-skill",
     "url": "https://github.com/googlarz/math-skill",
     "description": "Solves math problems step by step with built-in verification.",

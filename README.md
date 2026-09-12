@@ -11,7 +11,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-![Skills](https://img.shields.io/badge/skills-95-blue)
+![Skills](https://img.shields.io/badge/skills-96-blue)
 ![Plugins](https://img.shields.io/badge/plugins-20-purple)
 [![Changelog](https://img.shields.io/badge/changelog-v1.1.0-lightgrey.svg)](CHANGELOG.md)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-%E2%9C%93-orange)
@@ -86,7 +86,7 @@ see [CONTRIBUTING.md](CONTRIBUTING.md#install-bundles) for how it's kept in sync
 | 📚 | [IB & IGCSE Coursework](#ib--igcse-coursework) | 9 skills |
 | 🗂️ | [Study & Productivity](#study--productivity) | 18 skills |
 | 💻 | [Coding & CS Education](#coding--cs-education) | 18 skills |
-| 🔬 | [STEM Subjects](#stem-subjects) | 11 skills |
+| 🔬 | [STEM Subjects](#stem-subjects) | 12 skills |
 | ✍️ | [Writing & Humanities](#writing--humanities) | 11 skills |
 | 🗣️ | [Language Learning](#language-learning) | 4 skills |
 | 🎓 | [College Applications & Career](#college-applications--career) | 13 skills |
@@ -189,7 +189,7 @@ Algorithm and debugging explainers, learn-to-code starters, and CS project tooli
 Math, physics, chemistry, and data analysis helpers.
 
 <details open>
-<summary>Show 11 skills</summary>
+<summary>Show 12 skills</summary>
 
 - **[abelsr/Computational-Physics](https://github.com/abelsr/Computational-Physics)** - Solves physics problems with Python and Jupyter notebooks, from mechanics to electromagnetism.
 - **[chrisvoncsefalvay/claude-d3js-skill](https://github.com/chrisvoncsefalvay/claude-d3js-skill)** - Builds interactive D3.js charts, graphs, and network diagrams for data analysis and reports.
@@ -200,6 +200,7 @@ Math, physics, chemistry, and data analysis helpers.
 - **[juanlurg/data-science-claude-skills - experiment-tracker](https://github.com/juanlurg/data-science-claude-skills)** - Logs, compares, and visualizes lab experiment runs and results with local JSON storage.
 - **[majiayu000/claude-skill-registry - statistics-math](https://github.com/majiayu000/claude-skill-registry/tree/main/skills/data/statistics-math)** - Applies statistical tests, probability calculations, and distribution analysis to data.
 - **[openai/spreadsheet](https://officialskills.sh/openai/skills/spreadsheet)** - Creates, edits, analyzes, and visualizes spreadsheets with formulas, handy for physics data tables and chemistry calculations.
+- **[SteadfastAsArt/geoscience-skills](https://github.com/SteadfastAsArt/geoscience-skills)** - Applies earth science and climate skills: seismic, well logs, 3D modelling, geostatistics.
 - **[wentorai/research-plugins - inaturalist-api](https://github.com/wentorai/research-plugins/tree/main/skills/domains/ecology/inaturalist-api)** - 🌐 Queries the iNaturalist API for biodiversity observation data.
 - **[WolframResearch/skills - astro-observation-planner](https://github.com/WolframResearch/skills/tree/main/skills/astro-observation-planner)** - 🔑 Plans a night's stargazing: twilight, Moon phase, planets, and deep-sky objects.
 

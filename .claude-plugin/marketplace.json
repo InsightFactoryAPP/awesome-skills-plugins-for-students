@@ -316,6 +316,14 @@
       "description": "Renders 2D structure diagrams and 3D molecule viewers from chemical names."
     },
     {
+      "name": "steadfastasart-geoscience-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SteadfastAsArt/geoscience-skills.git"
+      },
+      "description": "Applies earth science and climate skills: seismic, well logs, 3D modelling, geostatistics."
+    },
+    {
       "name": "googlarz-math-skill",
       "source": {
         "source": "url",
@@ -1092,11 +1100,12 @@
     {
       "name": "stem-bundle",
       "source": "./bundles/stem-bundle",
-      "description": "STEM Subjects skills in one install (8 skills; 3 paid-key skills excluded, install separately).",
+      "description": "STEM Subjects skills in one install (9 skills; 3 paid-key skills excluded, install separately).",
       "dependencies": [
         "abelsr-computational-physics",
         "chrisvoncsefalvay-claude-d3js-skill",
         "ghutchis-chem-skill",
+        "steadfastasart-geoscience-skills",
         "googlarz-math-skill",
         "juanlurg-data-science-claude-skills-experiment-tracker",
         "majiayu000-claude-skill-registry-statistics-math",
