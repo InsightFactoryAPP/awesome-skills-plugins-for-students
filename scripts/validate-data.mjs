@@ -18,6 +18,12 @@ const VALID_CATEGORIES = new Set([
 const VALID_MARKERS = new Set(['requires-key', 'external-service', null]);
 const VALID_TOOLS = new Set(['claude-code', 'cursor', 'copilot', 'gemini-cli']);
 const REQUIRED_KEYS = ['name', 'url', 'description', 'category', 'marker', 'supported_tools'];
+// "tag" is an optional-by-file key: required on every data/plugins.json entry (a lightweight
+// sub-area label -- see #134 -- since Plugins is one flat list with no category subdivisions
+// the way skills.json entries have), and disallowed on data/skills.json entries (those are
+// already grouped by category).
+const VALID_TAGS = new Set(['Study & Productivity', 'Research', 'Note-Taking', 'Career', 'General-Purpose']);
+const ALLOWED_KEYS = [...REQUIRED_KEYS, 'tag'];
 
 /**
  * @param {string} label "data/skills.json" or "data/plugins.json"
@@ -47,7 +53,7 @@ export function validateEntries(label, data, pluginsFile) {
       if (!(key in entry)) errors.push(`${where} is missing required key "${key}".`);
     }
     for (const key of Object.keys(entry)) {
-      if (!REQUIRED_KEYS.includes(key)) errors.push(`${where} has an unknown key "${key}".`);
+      if (!ALLOWED_KEYS.includes(key)) errors.push(`${where} has an unknown key "${key}".`);
     }
 
     if (typeof entry.name !== 'string' || entry.name.length === 0) {
@@ -96,6 +102,18 @@ export function validateEntries(label, data, pluginsFile) {
       if (new Set(entry.supported_tools).size !== entry.supported_tools.length) {
         errors.push(`${where}.supported_tools has duplicate entries.`);
       }
+    }
+
+    if (pluginsFile) {
+      if (!('tag' in entry)) {
+        errors.push(`${where} is missing required key "tag" (every data/plugins.json entry needs one, see #134).`);
+      } else if (typeof entry.tag !== 'string' || !VALID_TAGS.has(entry.tag)) {
+        errors.push(
+          `${where}.tag "${entry.tag}" must be one of: ${[...VALID_TAGS].join(', ')}.`
+        );
+      }
+    } else if ('tag' in entry) {
+      errors.push(`${where} has a "tag" key, but tag is only used in data/plugins.json.`);
     }
   });
 

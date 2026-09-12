@@ -108,3 +108,27 @@ test('rejects a duplicate name across entries', () => {
   );
   assert(errors.some((e) => e.includes('.name duplicates')));
 });
+
+test('rejects a data/plugins.json entry with no tag', () => {
+  const errors = validateEntries('fixture', [goodEntry({ category: 'Plugins' })], true);
+  assert(errors.some((e) => e.includes('missing required key "tag"')));
+});
+
+test('rejects an unknown tag value in data/plugins.json', () => {
+  const errors = validateEntries(
+    'fixture',
+    [goodEntry({ category: 'Plugins', tag: 'Miscellaneous' })],
+    true
+  );
+  assert(errors.some((e) => e.includes('.tag "Miscellaneous" must be one of')));
+});
+
+test('accepts a well-formed data/plugins.json entry with a valid tag', () => {
+  const errors = validateEntries('fixture', [goodEntry({ category: 'Plugins', tag: 'Research' })], true);
+  assert.deepEqual(errors, []);
+});
+
+test('rejects a tag key on a data/skills.json entry', () => {
+  const errors = validateEntries('fixture', [goodEntry({ tag: 'Research' })], false);
+  assert(errors.some((e) => e.includes('tag is only used in data/plugins.json')));
+});

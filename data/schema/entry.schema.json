@@ -7,6 +7,11 @@
   "required": ["name", "url", "description", "category", "marker", "supported_tools"],
   "additionalProperties": false,
   "properties": {
+    "tag": {
+      "type": "string",
+      "enum": ["Study & Productivity", "Research", "Note-Taking", "Career", "General-Purpose"],
+      "description": "Required on every entry in data/plugins.json (not used in data/skills.json, since skill categories already group those): a lightweight sub-area label shown after the description in README.md so the single flat Plugins list stays scannable as it grows (see #134). Not enforced by this JSON Schema file directly -- scripts/validate-data.mjs requires it for every Plugins entry and rejects it on any skills.json entry."
+    },
     "name": {
       "type": "string",
       "minLength": 1,

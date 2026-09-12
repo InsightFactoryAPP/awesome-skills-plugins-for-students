@@ -23,7 +23,14 @@ const MARKER_EMOJI = { 'requires-key': '🔑', 'external-service': '🌐' };
 
 function formatEntry(entry) {
   const prefix = entry.marker ? `${MARKER_EMOJI[entry.marker]} ` : '';
-  return `- **[${entry.name}](${entry.url})** - ${prefix}${entry.description}`;
+  // Plugins entries carry a "tag" (see #134): a lightweight sub-area label
+  // rendered as a trailing parenthetical so the single flat Plugins list
+  // stays scannable, without touching check-list-format.mjs's per-bullet
+  // regex (the line still ends in a period) or the marker-must-be-first
+  // rule in check-markers.mjs (the marker still opens the description).
+  const description = entry.tag ? entry.description.replace(/\.$/, '') : entry.description;
+  const tagSuffix = entry.tag ? ` (${entry.tag}).` : '';
+  return `- **[${entry.name}](${entry.url})** - ${prefix}${description}${tagSuffix}`;
 }
 
 function byName(a, b) {

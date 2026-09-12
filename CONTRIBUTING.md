@@ -78,6 +78,15 @@ for a plugin), matching [`data/schema/entry.schema.json`](data/schema/entry.sche
   SKILL.md-style entry; only list `"gemini-cli"` too if you've actually
   confirmed it works there, and drop the other three if it's Gemini-CLI-only
   (e.g. it ships a `gemini-extension.json` instead of a `SKILL.md`).
+- `tag` — **required in `data/plugins.json`, not used in `data/skills.json`.**
+  Plugins has no subcategories the way skills do (it's one flat, alphabetical
+  list regardless of subject), so each plugin entry instead carries a
+  lightweight sub-area label, rendered as a trailing parenthetical in
+  README.md (see [#134](https://github.com/StudentSuite/awesome-skills-plugins-for-students/issues/134)).
+  Must be exactly one of: `"Study & Productivity"`, `"Research"`,
+  `"Note-Taking"`, `"Career"`, or `"General-Purpose"` (not tied to a subject
+  or workflow in that list). `scripts/validate-data.mjs` enforces both the
+  requirement and the fixed set of values.
 
 You don't need to insert your entry alphabetically in the JSON file —
 `generate-readme.mjs` sorts entries within each section itself — but doing so
