@@ -7,6 +7,7 @@
     "url": "https://github.com/StudentSuite"
   },
   "dependencies": [
+    "24kchengye-human-skill-tree-k12-sciences",
     "abelsr-computational-physics",
     "chrisvoncsefalvay-claude-d3js-skill",
     "ghutchis-chem-skill",
