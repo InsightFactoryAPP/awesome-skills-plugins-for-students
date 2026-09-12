@@ -426,6 +426,18 @@
     ]
   },
   {
+    "name": "googleworkspace/cli - gws-meet",
+    "url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-meet",
+    "description": "Manages Google Meet conference spaces, recordings, and transcripts via the `gws` CLI.",
+    "category": "Google Workspace for Students",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
     "name": "googleworkspace/gws-calendar",
     "url": "https://officialskills.sh/googleworkspace/skills/gws-calendar",
     "description": "Manage calendars, events, and free/busy queries via the `gws` CLI.",
