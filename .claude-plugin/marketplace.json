@@ -433,6 +433,14 @@
       "description": "Manage Google Tasks task lists and tasks via the `gws` CLI."
     },
     {
+      "name": "grahamlittle-ib-companion",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/grahamlittle/ib-companion.git"
+      },
+      "description": "Tutors IB DP students on IAs, Extended Essay, and TOK without writing the work."
+    },
+    {
       "name": "hameefy-claude-latex-skill",
       "source": {
         "source": "url",
@@ -1063,13 +1071,14 @@
     {
       "name": "ib-igcse-bundle",
       "source": "./bundles/ib-igcse-bundle",
-      "description": "IB & IGCSE Coursework skills in one install (9 skills).",
+      "description": "IB & IGCSE Coursework skills in one install (10 skills).",
       "dependencies": [
         "anthropics-doc-coauthoring",
         "anthropics-pdf",
         "david-saeteros-claude-skills-academic-writing",
         "davila7-claude-code-templates-literature-review",
         "dbosk-introagents-honor-defense-prep",
+        "grahamlittle-ib-companion",
         "hameefy-claude-latex-skill",
         "imbad0202-academic-research-skills",
         "saulmcphd-apa-style",

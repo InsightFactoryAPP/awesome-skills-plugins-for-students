@@ -559,6 +559,18 @@
     ]
   },
   {
+    "name": "grahamlittle/ib-companion",
+    "url": "https://github.com/grahamlittle/ib-companion",
+    "description": "Tutors IB DP students on IAs, Extended Essay, and TOK without writing the work.",
+    "category": "IB & IGCSE Coursework",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
     "name": "hameefy/claude-latex-skill",
     "url": "https://github.com/hameefy/claude-latex-skill",
     "description": "Produces compilable LaTeX for math proofs, derivations, and Beamer slides.",
