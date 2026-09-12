@@ -431,6 +431,14 @@
       "description": "Produces compilable LaTeX for math proofs, derivations, and Beamer slides."
     },
     {
+      "name": "dinqe-language-tutor",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dinqe/language-tutor.git"
+      },
+      "description": "Diagnoses your level and runs adaptive per-language tutoring sessions with an error ledger."
+    },
+    {
       "name": "hamsamilton-lang-tutor",
       "source": {
         "source": "url",
@@ -1144,9 +1152,10 @@
     {
       "name": "language-learning-bundle",
       "source": "./bundles/language-learning-bundle",
-      "description": "Language Learning skills in one install (4 skills).",
+      "description": "Language Learning skills in one install (5 skills).",
       "dependencies": [
         "13riank-japanese-tutor",
+        "dinqe-language-tutor",
         "hamsamilton-lang-tutor",
         "jeremyjc67-super-translator",
         "m98-fluent"

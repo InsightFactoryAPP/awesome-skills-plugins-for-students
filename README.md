@@ -11,7 +11,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-![Skills](https://img.shields.io/badge/skills-97-blue)
+![Skills](https://img.shields.io/badge/skills-98-blue)
 ![Plugins](https://img.shields.io/badge/plugins-20-purple)
 [![Changelog](https://img.shields.io/badge/changelog-v1.1.0-lightgrey.svg)](CHANGELOG.md)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-%E2%9C%93-orange)
@@ -88,7 +88,7 @@ see [CONTRIBUTING.md](CONTRIBUTING.md#install-bundles) for how it's kept in sync
 | 💻 | [Coding & CS Education](#coding--cs-education) | 18 skills |
 | 🔬 | [STEM Subjects](#stem-subjects) | 12 skills |
 | ✍️ | [Writing & Humanities](#writing--humanities) | 11 skills |
-| 🗣️ | [Language Learning](#language-learning) | 4 skills |
+| 🗣️ | [Language Learning](#language-learning) | 5 skills |
 | 🎓 | [College Applications & Career](#college-applications--career) | 13 skills |
 | 🔵 | [Google Workspace for Students](#google-workspace-for-students) | 12 skills |
 | 🧩 | [Plugins](#plugins) | 20 plugins |
@@ -236,9 +236,10 @@ Essay structuring, academic research, and literature analysis. See [Language Lea
 Translation practice, vocabulary drilling, and grammar correction in a target (non-English) language, for IB Language A/B and IGCSE second-language coursework.
 
 <details open>
-<summary>Show 4 skills</summary>
+<summary>Show 5 skills</summary>
 
 - **[13rianK/japanese-tutor](https://github.com/13rianK/japanese-tutor)** - Runs daily Japanese lessons with vocabulary, grammar, and graded practice.
+- **[dinqe/language-tutor](https://github.com/dinqe/language-tutor)** - Diagnoses your level and runs adaptive per-language tutoring sessions with an error ledger.
 - **[hamsamilton/lang-tutor](https://github.com/hamsamilton/lang-tutor)** - Gives grammar corrections and vocabulary help in your target language.
 - **[JeremyJC67/super-translator](https://github.com/JeremyJC67/super-translator)** - Translates text and explains it through your mother language.
 - **[m98/fluent](https://github.com/m98/fluent)** - Drills vocabulary and corrects target-language writing using spaced repetition.

@@ -8,6 +8,7 @@
   },
   "dependencies": [
     "13riank-japanese-tutor",
+    "dinqe-language-tutor",
     "hamsamilton-lang-tutor",
     "jeremyjc67-super-translator",
     "m98-fluent"

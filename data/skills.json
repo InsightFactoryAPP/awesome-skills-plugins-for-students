@@ -558,6 +558,18 @@
     ]
   },
   {
+    "name": "dinqe/language-tutor",
+    "url": "https://github.com/dinqe/language-tutor",
+    "description": "Diagnoses your level and runs adaptive per-language tutoring sessions with an error ledger.",
+    "category": "Language Learning",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
     "name": "hamsamilton/lang-tutor",
     "url": "https://github.com/hamsamilton/lang-tutor",
     "description": "Gives grammar corrections and vocabulary help in your target language.",
