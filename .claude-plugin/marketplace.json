@@ -465,6 +465,14 @@
       "description": "Produces compilable LaTeX for math proofs, derivations, and Beamer slides."
     },
     {
+      "name": "tizzy916-humanities-writing-companion",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tizzy916/humanities-writing-companion.git"
+      },
+      "description": "Guides humanities writing from research question through revision and disclosure."
+    },
+    {
       "name": "tianmind-studio-english-coach",
       "source": {
         "source": "url",
@@ -1196,13 +1204,14 @@
     {
       "name": "writing-humanities-bundle",
       "source": "./bundles/writing-humanities-bundle",
-      "description": "Writing & Humanities skills in one install (12 skills).",
+      "description": "Writing & Humanities skills in one install (13 skills).",
       "dependencies": [
         "lishix520-academic-paper-skills",
         "basicmachines-co-basic-memory-memory-literary-analysis",
         "composiohq-awesome-claude-skills-content-research-writer",
         "cooperwu-star-a-level-econ-marking-sample-cie-econ-essay",
         "davila7-claude-code-templates-email-composer",
+        "tizzy916-humanities-writing-companion",
         "kgraph57-paper-writer-skill",
         "master-cai-research-paper-writing-skills",
         "neolabhq-context-engineering-kit-write-concisely",

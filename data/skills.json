@@ -605,6 +605,18 @@
     ]
   },
   {
+    "name": "tizzy916/humanities-writing-companion",
+    "url": "https://github.com/tizzy916/humanities-writing-companion",
+    "description": "Guides humanities writing from research question through revision and disclosure.",
+    "category": "Writing & Humanities",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
     "name": "tianmind-studio/english-coach",
     "url": "https://github.com/tianmind-studio/english-coach",
     "description": "Corrects English mistakes and teaches a micro-lesson during real conversations.",

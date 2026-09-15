@@ -11,7 +11,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-![Skills](https://img.shields.io/badge/skills-104-blue)
+![Skills](https://img.shields.io/badge/skills-105-blue)
 ![Plugins](https://img.shields.io/badge/plugins-21-purple)
 [![Changelog](https://img.shields.io/badge/changelog-v1.1.0-lightgrey.svg)](CHANGELOG.md)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-%E2%9C%93-orange)
@@ -89,7 +89,7 @@ see [CONTRIBUTING.md](CONTRIBUTING.md#install-bundles) for how it's kept in sync
 | 🗂️ | [Study & Productivity](#study--productivity) | 18 skills |
 | 💻 | [Coding & CS Education](#coding--cs-education) | 18 skills |
 | 🔬 | [STEM Subjects](#stem-subjects) | 13 skills |
-| ✍️ | [Writing & Humanities](#writing--humanities) | 12 skills |
+| ✍️ | [Writing & Humanities](#writing--humanities) | 13 skills |
 | 🗣️ | [Language Learning](#language-learning) | 7 skills |
 | 🎓 | [College Applications & Career](#college-applications--career) | 14 skills |
 | 🔵 | [Google Workspace for Students](#google-workspace-for-students) | 12 skills |
@@ -217,7 +217,7 @@ Math, physics, chemistry, and data analysis helpers.
 Essay structuring, academic research, and literature analysis. See [Language Learning](#language-learning) for target-language translation, vocabulary, and grammar practice.
 
 <details open>
-<summary>Show 12 skills</summary>
+<summary>Show 13 skills</summary>
 
 - **[basicmachines-co/basic-memory - memory-literary-analysis](https://github.com/basicmachines-co/basic-memory/tree/main/skills/memory-literary-analysis)** - Analyzes literary works into a searchable knowledge graph.
 - **[ComposioHQ/awesome-claude-skills - content-research-writer](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/content-research-writer)** - Researches sources, improves hooks, iterates on outlines, and adds citations to essays and articles.
@@ -228,6 +228,7 @@ Essay structuring, academic research, and literature analysis. See [Language Lea
 - **[Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills)** - Skill package for planning and writing research papers.
 - **[NeoLabHQ/context-engineering-kit - write-concisely](https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/docs/skills/write-concisely)** - Applies *The Elements of Style* principles to tighten essays and cut wordiness.
 - **[phuryn/pm-skills - grammar-check](https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/grammar-check)** - Flags grammar, logic, and flow errors with targeted fixes, no full rewrite.
+- **[tizzy916/humanities-writing-companion](https://github.com/tizzy916/humanities-writing-companion)** - Guides humanities writing from research question through revision and disclosure.
 - **[wentorai/Research-Claw - citation-styles](https://github.com/wentorai/Research-Claw/tree/main/skills/citation-styles)** - Formats in-text citations and reference lists in MLA, APA, and Chicago style.
 - **[wentorai/research-plugins - history-research-guide](https://github.com/wentorai/research-plugins/tree/main/skills/domains/humanities/history-research-guide)** - Guides primary-source criticism, archival research, and historiography for history papers.
 - **[xwmxcz/papers-skill](https://github.com/xwmxcz/papers-skill)** - 🌐 Searches 200M+ papers on Semantic Scholar, inspects citations, and downloads arXiv PDFs.
