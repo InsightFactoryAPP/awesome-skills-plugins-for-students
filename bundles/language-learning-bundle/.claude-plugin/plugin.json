@@ -8,6 +8,7 @@
   },
   "dependencies": [
     "13riank-japanese-tutor",
+    "gislio-claude-language-tutor",
     "tianmind-studio-english-coach",
     "dinqe-language-tutor",
     "hamsamilton-lang-tutor",

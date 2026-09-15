@@ -431,6 +431,16 @@
     ]
   },
   {
+    "name": "gislio/claude-language-tutor",
+    "url": "https://github.com/gislio/claude-language-tutor",
+    "description": "Assesses your CEFR level and runs adaptive lessons in any target language.",
+    "category": "Language Learning",
+    "marker": null,
+    "supported_tools": [
+      "claude-code"
+    ]
+  },
+  {
     "name": "SteadfastAsArt/geoscience-skills",
     "url": "https://github.com/SteadfastAsArt/geoscience-skills",
     "description": "Applies earth science and climate skills: seismic, well logs, 3D modelling, geostatistics.",

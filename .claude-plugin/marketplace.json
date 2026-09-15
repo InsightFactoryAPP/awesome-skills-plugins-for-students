@@ -334,6 +334,14 @@
       "description": "Renders 2D structure diagrams and 3D molecule viewers from chemical names."
     },
     {
+      "name": "gislio-claude-language-tutor",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gislio/claude-language-tutor.git"
+      },
+      "description": "Assesses your CEFR level and runs adaptive lessons in any target language."
+    },
+    {
       "name": "steadfastasart-geoscience-skills",
       "source": {
         "source": "url",
@@ -1207,9 +1215,10 @@
     {
       "name": "language-learning-bundle",
       "source": "./bundles/language-learning-bundle",
-      "description": "Language Learning skills in one install (6 skills).",
+      "description": "Language Learning skills in one install (7 skills).",
       "dependencies": [
         "13riank-japanese-tutor",
+        "gislio-claude-language-tutor",
         "tianmind-studio-english-coach",
         "dinqe-language-tutor",
         "hamsamilton-lang-tutor",

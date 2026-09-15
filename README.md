@@ -11,7 +11,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-![Skills](https://img.shields.io/badge/skills-103-blue)
+![Skills](https://img.shields.io/badge/skills-104-blue)
 ![Plugins](https://img.shields.io/badge/plugins-21-purple)
 [![Changelog](https://img.shields.io/badge/changelog-v1.1.0-lightgrey.svg)](CHANGELOG.md)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-%E2%9C%93-orange)
@@ -90,7 +90,7 @@ see [CONTRIBUTING.md](CONTRIBUTING.md#install-bundles) for how it's kept in sync
 | 💻 | [Coding & CS Education](#coding--cs-education) | 18 skills |
 | 🔬 | [STEM Subjects](#stem-subjects) | 13 skills |
 | ✍️ | [Writing & Humanities](#writing--humanities) | 12 skills |
-| 🗣️ | [Language Learning](#language-learning) | 6 skills |
+| 🗣️ | [Language Learning](#language-learning) | 7 skills |
 | 🎓 | [College Applications & Career](#college-applications--career) | 14 skills |
 | 🔵 | [Google Workspace for Students](#google-workspace-for-students) | 12 skills |
 | 🧩 | [Plugins](#plugins) | 21 plugins |
@@ -241,10 +241,11 @@ Essay structuring, academic research, and literature analysis. See [Language Lea
 Translation practice, vocabulary drilling, and grammar correction in a target (non-English) language, for IB Language A/B and IGCSE second-language coursework.
 
 <details open>
-<summary>Show 6 skills</summary>
+<summary>Show 7 skills</summary>
 
 - **[13rianK/japanese-tutor](https://github.com/13rianK/japanese-tutor)** - Runs daily Japanese lessons with vocabulary, grammar, and graded practice.
 - **[dinqe/language-tutor](https://github.com/dinqe/language-tutor)** - Diagnoses your level and runs adaptive per-language tutoring sessions with an error ledger.
+- **[gislio/claude-language-tutor](https://github.com/gislio/claude-language-tutor)** - Assesses your CEFR level and runs adaptive lessons in any target language.
 - **[hamsamilton/lang-tutor](https://github.com/hamsamilton/lang-tutor)** - Gives grammar corrections and vocabulary help in your target language.
 - **[JeremyJC67/super-translator](https://github.com/JeremyJC67/super-translator)** - Translates text and explains it through your mother language.
 - **[m98/fluent](https://github.com/m98/fluent)** - Drills vocabulary and corrects target-language writing using spaced repetition.
