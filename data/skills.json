@@ -545,6 +545,18 @@
     ]
   },
   {
+    "name": "googleworkspace/gws-keep",
+    "url": "https://officialskills.sh/googleworkspace/skills/gws-keep",
+    "description": "Manages Google Keep notes via the `gws` CLI.",
+    "category": "Google Workspace for Students",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
     "name": "googleworkspace/gws-sheets",
     "url": "https://officialskills.sh/googleworkspace/skills/gws-sheets",
     "description": "Read and write Google Sheets spreadsheets via the `gws` CLI.",

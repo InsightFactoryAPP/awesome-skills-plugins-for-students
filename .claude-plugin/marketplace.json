@@ -422,6 +422,15 @@
       "description": "Send, read, and manage Gmail messages, labels, and drafts via the `gws` CLI."
     },
     {
+      "name": "googleworkspace-gws-keep",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/googleworkspace/cli.git",
+        "path": "skills/gws-keep"
+      },
+      "description": "Manages Google Keep notes via the `gws` CLI."
+    },
+    {
       "name": "googleworkspace-gws-sheets",
       "source": {
         "source": "git-subdir",
@@ -1275,7 +1284,7 @@
     {
       "name": "google-workspace-bundle",
       "source": "./bundles/google-workspace-bundle",
-      "description": "Google Workspace for Students skills in one install (12 skills).",
+      "description": "Google Workspace for Students skills in one install (13 skills).",
       "dependencies": [
         "eranw2000-google-slides-skill",
         "googleworkspace-cli-gws-meet",
@@ -1285,6 +1294,7 @@
         "googleworkspace-gws-drive",
         "googleworkspace-gws-forms",
         "googleworkspace-gws-gmail",
+        "googleworkspace-gws-keep",
         "googleworkspace-gws-sheets",
         "googleworkspace-gws-slides",
         "googleworkspace-gws-tasks",
