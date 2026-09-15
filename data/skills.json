@@ -595,6 +595,18 @@
     ]
   },
   {
+    "name": "tianmind-studio/english-coach",
+    "url": "https://github.com/tianmind-studio/english-coach",
+    "description": "Corrects English mistakes and teaches a micro-lesson during real conversations.",
+    "category": "Language Learning",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
     "name": "dinqe/language-tutor",
     "url": "https://github.com/dinqe/language-tutor",
     "description": "Diagnoses your level and runs adaptive per-language tutoring sessions with an error ledger.",
