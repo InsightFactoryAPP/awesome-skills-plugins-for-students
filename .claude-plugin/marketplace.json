@@ -942,6 +942,16 @@
       "description": "Builds animation-rich HTML presentations from scratch or converted from PowerPoint files."
     },
     {
+      "name": "zlanqing-codex-claude-academic-skills-scientific-toolkit-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/zLanqing/codex-claude-academic-skills.git",
+        "path": "scientific-toolkit-skill",
+        "ref": "main"
+      },
+      "description": "Runs MATLAB/Python scientific computing, simulations, and publication-ready figures."
+    },
+    {
       "name": "yarikleto-claude-teacher-plugin",
       "source": {
         "source": "url",
@@ -1212,7 +1222,7 @@
     {
       "name": "stem-bundle",
       "source": "./bundles/stem-bundle",
-      "description": "STEM Subjects skills in one install (10 skills; 3 paid-key skills excluded, install separately).",
+      "description": "STEM Subjects skills in one install (11 skills; 3 paid-key skills excluded, install separately).",
       "dependencies": [
         "24kchengye-human-skill-tree-k12-sciences",
         "abelsr-computational-physics",
@@ -1223,7 +1233,8 @@
         "juanlurg-data-science-claude-skills-experiment-tracker",
         "majiayu000-claude-skill-registry-statistics-math",
         "openai-spreadsheet",
-        "wentorai-research-plugins-inaturalist-api"
+        "wentorai-research-plugins-inaturalist-api",
+        "zlanqing-codex-claude-academic-skills-scientific-toolkit-skill"
       ]
     },
     {

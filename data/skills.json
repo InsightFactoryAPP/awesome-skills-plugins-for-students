@@ -1263,5 +1263,17 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "zLanqing/codex-claude-academic-skills - scientific-toolkit-skill",
+    "url": "https://github.com/zLanqing/codex-claude-academic-skills/tree/main/scientific-toolkit-skill",
+    "description": "Runs MATLAB/Python scientific computing, simulations, and publication-ready figures.",
+    "category": "STEM Subjects",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]
