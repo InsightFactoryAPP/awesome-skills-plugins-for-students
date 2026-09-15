@@ -130,6 +130,19 @@
     "tag": "Career"
   },
   {
+    "name": "dominiquevienne/claude-job-hunt",
+    "url": "https://github.com/dominiquevienne/claude-job-hunt",
+    "description": "Scans job boards, scores openings, and drafts tailored resumes and cover letters.",
+    "category": "Plugins",
+    "marker": "external-service",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ],
+    "tag": "Career"
+  },
+  {
     "name": "emili-kosik/admission-skills",
     "url": "https://github.com/emili-kosik/admission-skills",
     "description": "Tracks college application deadlines, checklists, and exports a reminder calendar.",

@@ -1029,6 +1029,14 @@
       "description": "Bundles resume tailoring, cover letters, and interview prep in one plugin."
     },
     {
+      "name": "dominiquevienne-claude-job-hunt",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dominiquevienne/claude-job-hunt.git"
+      },
+      "description": "🌐 Scans job boards, scores openings, and drafts tailored resumes and cover letters."
+    },
+    {
       "name": "emili-kosik-admission-skills",
       "source": {
         "source": "url",
