@@ -97,6 +97,18 @@
     ]
   },
   {
+    "name": "fronkt/Academic-Essay-Reviewer",
+    "url": "https://github.com/fronkt/Academic-Essay-Reviewer",
+    "description": "Reviews Common App and UC personal statements via a simulated admissions committee.",
+    "category": "College Applications & Career",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
     "name": "AnayDhawan/oss-launch",
     "url": "https://github.com/AnayDhawan/oss-launch",
     "description": "Shipped a side project? Scaffold the OSS launch files (README/LICENSE/CI/launch plan) and use it as application signal.",

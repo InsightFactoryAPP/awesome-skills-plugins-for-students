@@ -73,6 +73,14 @@
       "description": "Runs consistent, professional GitHub pull-request reviews with pending reviews and code suggestions."
     },
     {
+      "name": "fronkt-academic-essay-reviewer",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fronkt/Academic-Essay-Reviewer.git"
+      },
+      "description": "Reviews Common App and UC personal statements via a simulated admissions committee."
+    },
+    {
       "name": "anaydhawan-oss-launch",
       "source": {
         "source": "url",
@@ -1195,9 +1203,10 @@
     {
       "name": "college-career-bundle",
       "source": "./bundles/college-career-bundle",
-      "description": "College Applications & Career skills in one install (13 skills).",
+      "description": "College Applications & Career skills in one install (14 skills).",
       "dependencies": [
         "espindolavinicius-linkedin-growth-skill",
+        "fronkt-academic-essay-reviewer",
         "anaydhawan-oss-launch",
         "borghei-claude-skills-research-grants",
         "composiohq-awesome-claude-skills-domain-name-brainstormer",
