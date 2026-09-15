@@ -1111,6 +1111,18 @@
     ]
   },
   {
+    "name": "wentorai/Research-Claw - citation-styles",
+    "url": "https://github.com/wentorai/Research-Claw/tree/main/skills/citation-styles",
+    "description": "Formats in-text citations and reference lists in MLA, APA, and Chicago style.",
+    "category": "Writing & Humanities",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
     "name": "wentorai/research-plugins - history-research-guide",
     "url": "https://github.com/wentorai/research-plugins/tree/main/skills/domains/humanities/history-research-guide",
     "description": "Guides primary-source criticism, archival research, and historiography for history papers.",

@@ -829,6 +829,16 @@
       "description": "AI-powered resume tailoring for specific job descriptions."
     },
     {
+      "name": "wentorai-research-claw-citation-styles",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wentorai/Research-Claw.git",
+        "path": "skills/citation-styles",
+        "ref": "main"
+      },
+      "description": "Formats in-text citations and reference lists in MLA, APA, and Chicago style."
+    },
+    {
       "name": "wentorai-research-plugins-history-research-guide",
       "source": {
         "source": "git-subdir",
@@ -1154,7 +1164,7 @@
     {
       "name": "writing-humanities-bundle",
       "source": "./bundles/writing-humanities-bundle",
-      "description": "Writing & Humanities skills in one install (11 skills).",
+      "description": "Writing & Humanities skills in one install (12 skills).",
       "dependencies": [
         "lishix520-academic-paper-skills",
         "basicmachines-co-basic-memory-memory-literary-analysis",
@@ -1165,6 +1175,7 @@
         "master-cai-research-paper-writing-skills",
         "neolabhq-context-engineering-kit-write-concisely",
         "phuryn-pm-skills-grammar-check",
+        "wentorai-research-claw-citation-styles",
         "wentorai-research-plugins-history-research-guide",
         "xwmxcz-papers-skill"
       ]
