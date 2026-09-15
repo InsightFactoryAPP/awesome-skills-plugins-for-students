@@ -8,6 +8,26 @@ software), but releases are still tagged so changes are easy to point to.
 
 ## [Unreleased]
 
+### Added (2026-09-15 issue-clearing pass)
+
+- Fixed the dead link on `24kchengYe/human-skill-tree - k12-sciences`: the
+  repo's default branch is `master`, not `main`. Closes #144.
+- `wentorai/Research-Claw - citation-styles` (Writing & Humanities) — MLA
+  9th/APA 7th/Chicago 17th citation-formatting reference. Closes #143.
+- `fronkt/Academic-Essay-Reviewer` (College Applications & Career) — Common
+  App/UC personal-statement review via a simulated admissions committee.
+  Closes #142.
+- `makenotion/claude-code-notion-plugin` (Plugins, 🔑, Note-Taking) — official
+  Notion plugin (skills + MCP server). Closes #140.
+- `tianmind-studio/english-coach` (Language Learning) — real-conversation
+  English correction and micro-lessons. Closes #139.
+- A glyph per Plugins `tag` (📋 Study & Productivity, 🔎 Research,
+  📝 Note-Taking, 💼 Career, ⚙️ General-Purpose), via a new `TAG_EMOJI` map in
+  `scripts/generate-readme.mjs`'s `formatEntry()`, documented in
+  CONTRIBUTING.md and the README's top emoji legend and Plugins intro.
+  Closes #141.
+- Skills badge now reads 103, Plugins badge now reads 21.
+
 ### Added (2026-09-11 issue-clearing pass)
 
 - `scripts/check-compat-paths-verified.mjs`, modeled on
