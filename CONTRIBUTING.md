@@ -86,7 +86,13 @@ for a plugin), matching [`data/schema/entry.schema.json`](data/schema/entry.sche
   Must be exactly one of: `"Study & Productivity"`, `"Research"`,
   `"Note-Taking"`, `"Career"`, or `"General-Purpose"` (not tied to a subject
   or workflow in that list). `scripts/validate-data.mjs` enforces both the
-  requirement and the fixed set of values.
+  requirement and the fixed set of values. Each tag also renders with its own
+  glyph (📋 Study & Productivity, 🔎 Research, 📝 Note-Taking, 💼 Career,
+  ⚙️ General-Purpose) via the `TAG_EMOJI` map in
+  `scripts/generate-readme.mjs`'s `formatEntry()` — see
+  [#141](https://github.com/StudentSuite/awesome-skills-plugins-for-students/issues/141).
+  You don't need to add anything by hand for this: the glyph is derived from
+  `tag` automatically when you run the generator.
 
 You don't need to insert your entry alphabetically in the JSON file —
 `generate-readme.mjs` sorts entries within each section itself — but doing so

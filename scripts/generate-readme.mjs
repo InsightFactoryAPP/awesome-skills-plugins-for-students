@@ -21,15 +21,29 @@ const PLUGINS_PATH = new URL('../data/plugins.json', import.meta.url);
 
 const MARKER_EMOJI = { 'requires-key': '🔑', 'external-service': '🌐' };
 
+// Per #141: each Plugins "tag" (see #134) gets its own glyph, the same way
+// 🔑/🌐 give the marker system a pattern-matchable symbol instead of prose.
+// Keep these distinct from every glyph already used elsewhere in README.md
+// (section ToC icons, markers) so a reader never has to disambiguate by
+// context which glyph system they're looking at.
+const TAG_EMOJI = {
+  'Study & Productivity': '📋',
+  Research: '🔎',
+  'Note-Taking': '📝',
+  Career: '💼',
+  'General-Purpose': '⚙️',
+};
+
 function formatEntry(entry) {
   const prefix = entry.marker ? `${MARKER_EMOJI[entry.marker]} ` : '';
   // Plugins entries carry a "tag" (see #134): a lightweight sub-area label
   // rendered as a trailing parenthetical so the single flat Plugins list
   // stays scannable, without touching check-list-format.mjs's per-bullet
   // regex (the line still ends in a period) or the marker-must-be-first
-  // rule in check-markers.mjs (the marker still opens the description).
+  // rule in check-markers.mjs (the marker still opens the description, so
+  // it's untouched by a glyph appended at the end).
   const description = entry.tag ? entry.description.replace(/\.$/, '') : entry.description;
-  const tagSuffix = entry.tag ? ` (${entry.tag}).` : '';
+  const tagSuffix = entry.tag ? ` (${TAG_EMOJI[entry.tag]} ${entry.tag}).` : '';
   return `- **[${entry.name}](${entry.url})** - ${prefix}${description}${tagSuffix}`;
 }
 
