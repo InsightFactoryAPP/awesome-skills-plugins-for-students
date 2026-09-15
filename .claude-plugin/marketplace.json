@@ -1063,6 +1063,14 @@
       "description": "Reads, writes, and organizes Obsidian notes, canvases, and databases via the Obsidian CLI."
     },
     {
+      "name": "makenotion-claude-code-notion-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/makenotion/claude-code-notion-plugin.git"
+      },
+      "description": "🔑 Searches, creates, and edits Notion pages and databases from Claude Code."
+    },
+    {
       "name": "obra-superpowers",
       "source": {
         "source": "url",

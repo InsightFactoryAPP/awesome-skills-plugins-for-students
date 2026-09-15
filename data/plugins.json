@@ -221,6 +221,19 @@
     "tag": "Note-Taking"
   },
   {
+    "name": "makenotion/claude-code-notion-plugin",
+    "url": "https://github.com/makenotion/claude-code-notion-plugin",
+    "description": "Searches, creates, and edits Notion pages and databases from Claude Code.",
+    "category": "Plugins",
+    "marker": "requires-key",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ],
+    "tag": "Note-Taking"
+  },
+  {
     "name": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "description": "20+ skills for spec-to-code workflows with TDD, brainstorming, and subagent-driven planning commands.",
