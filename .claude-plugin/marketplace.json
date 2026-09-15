@@ -1061,6 +1061,14 @@
       "description": "Plugin for literature surveys, paper reviews, and citation management."
     },
     {
+      "name": "jeffersongoncalves-claude-code-obsidian-notes",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jeffersongoncalves/claude-code-obsidian-notes.git"
+      },
+      "description": "Persists documentation, decisions, and summaries as notes in an Obsidian vault."
+    },
+    {
       "name": "joshuaoliphant-claude-plugins-mochi-creator",
       "source": {
         "source": "git-subdir",

@@ -182,6 +182,19 @@
     "tag": "Research"
   },
   {
+    "name": "jeffersongoncalves/claude-code-obsidian-notes",
+    "url": "https://github.com/jeffersongoncalves/claude-code-obsidian-notes",
+    "description": "Persists documentation, decisions, and summaries as notes in an Obsidian vault.",
+    "category": "Plugins",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ],
+    "tag": "Note-Taking"
+  },
+  {
     "name": "JoshuaOliphant/claude-plugins - mochi-creator",
     "url": "https://github.com/JoshuaOliphant/claude-plugins/tree/main/plugins/mochi-creator",
     "description": "Creates evidence-based spaced-repetition flashcards and pushes them to Mochi.",
