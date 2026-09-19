@@ -485,6 +485,18 @@
     ]
   },
   {
+    "name": "googleworkspace/gws-chat",
+    "url": "https://officialskills.sh/googleworkspace/skills/gws-chat",
+    "description": "Manages Google Chat spaces, messages, and memberships via the `gws` CLI.",
+    "category": "Google Workspace for Students",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
     "name": "googleworkspace/gws-classroom",
     "url": "https://officialskills.sh/googleworkspace/skills/gws-classroom",
     "description": "Manage Google Classroom classes, rosters, and coursework via the `gws` CLI.",

@@ -377,6 +377,15 @@
       "description": "Manage calendars, events, and free/busy queries via the `gws` CLI."
     },
     {
+      "name": "googleworkspace-gws-chat",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/googleworkspace/cli.git",
+        "path": "skills/gws-chat"
+      },
+      "description": "Manages Google Chat spaces, messages, and memberships via the `gws` CLI."
+    },
+    {
       "name": "googleworkspace-gws-classroom",
       "source": {
         "source": "git-subdir",
@@ -1295,11 +1304,12 @@
     {
       "name": "google-workspace-bundle",
       "source": "./bundles/google-workspace-bundle",
-      "description": "Google Workspace for Students skills in one install (13 skills).",
+      "description": "Google Workspace for Students skills in one install (14 skills).",
       "dependencies": [
         "eranw2000-google-slides-skill",
         "googleworkspace-cli-gws-meet",
         "googleworkspace-gws-calendar",
+        "googleworkspace-gws-chat",
         "googleworkspace-gws-classroom",
         "googleworkspace-gws-docs",
         "googleworkspace-gws-drive",
