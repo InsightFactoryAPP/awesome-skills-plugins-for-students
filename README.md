@@ -11,8 +11,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-![Skills](https://img.shields.io/badge/skills-108-blue)
-![Plugins](https://img.shields.io/badge/plugins-23-purple)
+![Skills](https://img.shields.io/badge/skills-112-blue)
+![Plugins](https://img.shields.io/badge/plugins-25-purple)
 [![Changelog](https://img.shields.io/badge/changelog-v1.1.0-lightgrey.svg)](CHANGELOG.md)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-%E2%9C%93-orange)
 ![Cursor](https://img.shields.io/badge/Cursor-%E2%9C%93-1e90ff)
@@ -86,14 +86,14 @@ see [CONTRIBUTING.md](CONTRIBUTING.md#install-bundles) for how it's kept in sync
 | | Section | Count |
 | :-: | --- | :-: |
 | 📚 | [IB & IGCSE Coursework](#ib--igcse-coursework) | 10 skills |
-| 🗂️ | [Study & Productivity](#study--productivity) | 18 skills |
-| 💻 | [Coding & CS Education](#coding--cs-education) | 18 skills |
+| 🗂️ | [Study & Productivity](#study--productivity) | 19 skills |
+| 💻 | [Coding & CS Education](#coding--cs-education) | 19 skills |
 | 🔬 | [STEM Subjects](#stem-subjects) | 14 skills |
-| ✍️ | [Writing & Humanities](#writing--humanities) | 13 skills |
+| ✍️ | [Writing & Humanities](#writing--humanities) | 14 skills |
 | 🗣️ | [Language Learning](#language-learning) | 7 skills |
-| 🎓 | [College Applications & Career](#college-applications--career) | 14 skills |
+| 🎓 | [College Applications & Career](#college-applications--career) | 15 skills |
 | 🔵 | [Google Workspace for Students](#google-workspace-for-students) | 14 skills |
-| 🧩 | [Plugins](#plugins) | 23 plugins |
+| 🧩 | [Plugins](#plugins) | 25 plugins |
 
 [Install a bundle in one command](#install-a-bundle-in-one-command) &middot; [Compatibility Paths](#compatibility-paths) &middot; [Security Notice](#security-notice) &middot; [Quality Standards](#quality-standards) &middot; [Contributing](#contributing) &middot; [Contributors](#contributors) &middot; [More from StudentSuite](#more-from-studentsuite) &middot; [Sister lists](#sister-lists) &middot; [License](#license)
 
@@ -132,8 +132,9 @@ Several spaced-repetition study tools overlap here. To pick one: **hluaguo/learn
 Three entries generate exam-prep material with no prior note on how they differ. **sickn33/agentic-awesome-skills - examprep-ai** (this section) ranks syllabus topics into a scored roadmap with MCQs and question prediction; **pinakdhabu/Exam-prompt** (this section) generates exam answers, notes, and study plans for any university; and **HashemALSKKkAF/exam-prep-mcq** (under [Google Workspace for Students](#google-workspace-for-students)) turns study material into an MCQ quiz delivered as a Google Form.
 
 <details open>
-<summary>Show 18 skills</summary>
+<summary>Show 19 skills</summary>
 
+- **[0x-man/mindmap-skill](https://github.com/0x-man/mindmap-skill)** - Generates interactive mind maps and concept maps from notes, topics, or documents.
 - **[anthropics/docx](https://officialskills.sh/anthropics/skills/docx)** - Creates and edits Word documents with tracked changes, comments, and formatting.
 - **[anthropics/internal-comms](https://officialskills.sh/anthropics/skills/internal-comms)** - Writes status reports, newsletters, and FAQs, good for group project updates and lab reports.
 - **[anthropics/xlsx](https://officialskills.sh/anthropics/skills/xlsx)** - Creates and analyzes spreadsheets with formulas, charts, and data cleaning.
@@ -162,7 +163,7 @@ Three entries generate exam-prep material with no prior note on how they differ.
 Algorithm and debugging explainers, learn-to-code starters, and CS project tooling.
 
 <details open>
-<summary>Show 18 skills</summary>
+<summary>Show 19 skills</summary>
 
 - **[0xsarwagya/ontoly](https://github.com/0xsarwagya/ontoly)** - Maps codebases into graph-backed architecture evidence.
 - **[aidankinzett/claude-git-pr-skill](https://github.com/aidankinzett/claude-git-pr-skill)** - Runs consistent, professional GitHub pull-request reviews with pending reviews and code suggestions.
@@ -170,6 +171,7 @@ Algorithm and debugging explainers, learn-to-code starters, and CS project tooli
 - **[anthropics/webapp-testing](https://officialskills.sh/anthropics/skills/webapp-testing)** - Automates browser testing of local web apps with Playwright, handy for verifying CS class projects.
 - **[ComposioHQ/awesome-claude-skills - artifacts-builder](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/artifacts-builder)** - Builds multi-component React/Tailwind HTML artifacts for interactive demos and projects.
 - **[ComposioHQ/awesome-claude-skills - developer-growth-analysis](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/developer-growth-analysis)** - Analyzes your Claude Code chat history to surface coding patterns and learning gaps.
+- **[egouilliard-leyton/python-tutor-skill](https://github.com/egouilliard-leyton/python-tutor-skill)** - Teaches Python fundamentals to beginners through exercises and Socratic feedback.
 - **[FlorianBruniaux/claude-code-ultimate-guide - self-assessment](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/tree/main/.claude/skills/self-assessment)** - Assesses your Claude Code skill level and generates a personalized learning path.
 - **[hmohamed01/SQL-Expert](https://github.com/hmohamed01/SQL-Expert)** - Guides writing, optimizing, and debugging T-SQL queries, good for SQL coursework practice.
 - **[karanb192/algo-sensei](https://github.com/karanb192/algo-sensei)** - Generates LeetCode-style problems with progressive hints and mock interviews.
@@ -218,12 +220,13 @@ Math, physics, chemistry, and data analysis helpers.
 Essay structuring, academic research, and literature analysis. See [Language Learning](#language-learning) for target-language translation, vocabulary, and grammar practice.
 
 <details open>
-<summary>Show 13 skills</summary>
+<summary>Show 14 skills</summary>
 
 - **[basicmachines-co/basic-memory - memory-literary-analysis](https://github.com/basicmachines-co/basic-memory/tree/main/skills/memory-literary-analysis)** - Analyzes literary works into a searchable knowledge graph.
 - **[ComposioHQ/awesome-claude-skills - content-research-writer](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/content-research-writer)** - Researches sources, improves hooks, iterates on outlines, and adds citations to essays and articles.
 - **[CooperWu-star/A-Level-Econ-Marking-Sample - cie-econ-essay](https://github.com/CooperWu-star/A-Level-Econ-Marking-Sample/tree/main/cie-econ-essay)** - Marks and writes CIE A-Level Economics essays to grade descriptors.
 - **[davila7/claude-code-templates - email-composer](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/enterprise-communication/email-composer)** - Drafts professional emails, handy for messaging professors or admissions offices.
+- **[haowjy/creative-writing-skills - story-review](https://github.com/haowjy/creative-writing-skills/tree/main/skills/story-review)** - Gives editorial feedback on fiction and poetry drafts: voice, pacing, and craft.
 - **[kgraph57/paper-writer-skill](https://github.com/kgraph57/paper-writer-skill)** - Drafts IMRAD-structured scientific manuscripts, useful for lab reports and write-ups.
 - **[lishix520/academic-paper-skills](https://github.com/lishix520/academic-paper-skills)** - Plans and drafts academic papers through reviewer-simulated quality checkpoints.
 - **[Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills)** - Skill package for planning and writing research papers.
@@ -264,12 +267,13 @@ Personal statements, resume building, interview prep, and side-project launches.
 Several resume tools overlap here. To pick one: **tailored-resume-generator** and **resume-tailoring-skill** do plain tailoring to a single job description; **ResumeSkills** adds ATS-compatibility scoring and interview prep; **career-ops** wraps a full job-search workflow that also scores listings and tracks applications; **resume-tailor-plugin** (under [Plugins](#plugins)) is the same tailoring packaged as a full Claude Code plugin rather than a single skill; and **danielrosehill/Claude-Career-Plugin** (also under [Plugins](#plugins)) bundles resume, cover-letter, and interview-prep commands into one broader career-operations plugin.
 
 <details open>
-<summary>Show 14 skills</summary>
+<summary>Show 15 skills</summary>
 
 - **[AnayDhawan/oss-launch](https://github.com/AnayDhawan/oss-launch)** - Shipped a side project? Scaffold the OSS launch files (README/LICENSE/CI/launch plan) and use it as application signal.
 - **[borghei/Claude-Skills - research/grants](https://github.com/borghei/Claude-Skills/tree/main/research/grants)** - Structures a scholarship or grant proposal around fit, narrative, and budget instead of boilerplate.
 - **[ComposioHQ/awesome-claude-skills - domain-name-brainstormer](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/domain-name-brainstormer)** - 🌐 Generates domain name ideas and checks availability across TLDs for side projects.
 - **[ComposioHQ/awesome-claude-skills - tailored-resume-generator](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/tailored-resume-generator)** - Analyzes job descriptions and tailors resumes to highlight relevant experience and skills.
+- **[davila7/claude-code-templates - interactive-portfolio](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/creative-design/interactive-portfolio)** - Scaffolds a personal portfolio or project website to link from applications.
 - **[espindolavinicius/linkedin-growth-skill](https://github.com/espindolavinicius/linkedin-growth-skill)** - Audits and rewrites LinkedIn profiles into a monthly content calendar.
 - **[fronkt/Academic-Essay-Reviewer](https://github.com/fronkt/Academic-Essay-Reviewer)** - Reviews Common App and UC personal statements via a simulated admissions committee.
 - **[kevinryan-au/claude-cover-letter](https://github.com/kevinryan-au/claude-cover-letter)** - Turns a pasted job posting into a tailored, one-page cover letter.
@@ -322,13 +326,14 @@ Full Claude Code, Cursor, or Copilot plugins for students: bundles of commands, 
 Each entry's parenthetical tag is its sub-area, so the flat list below stays scannable as it grows: **📋 Study & Productivity** (tutoring, note capture, flashcards, lesson/course generation), **🔎 Research** (literature review, citation management, research pipelines), **📝 Note-Taking** (video/lecture notes, notebook organization), **💼 Career** (resume, applications, interview prep), or **⚙️ General-Purpose** (not tied to a subject or workflow above).
 
 <details open>
-<summary>Show 23 plugins</summary>
+<summary>Show 25 plugins</summary>
 
 - **[alirezarezvani/claude-skills - productivity/capture](https://github.com/alirezarezvani/claude-skills/tree/main/productivity/capture)** - Organizes a brain-dump of mixed thoughts, tasks, and ideas into an actionable list (📋 Study & Productivity).
 - **[alirezarezvani/claude-skills - productivity/deep-work](https://github.com/alirezarezvani/claude-skills/tree/main/productivity/deep-work)** - Time-blocks the day into deep and shallow work with focus blocks, Cal Newport style (📋 Study & Productivity).
 - **[alirezarezvani/claude-skills - research/deep-research](https://github.com/alirezarezvani/claude-skills/tree/main/research/deep-research)** - Runs a multi-source research pipeline with citations for high-stakes research questions (🔎 Research).
 - **[alirezarezvani/claude-skills - research/litreview](https://github.com/alirezarezvani/claude-skills/tree/main/research/litreview)** - Turns a research question into a planned mini literature review as a Word document (🔎 Research).
 - **[alirezarezvani/claude-skills - research/syllabus](https://github.com/alirezarezvani/claude-skills/tree/main/research/syllabus)** - Builds a supplementary reading list and discussion questions from a course syllabus (🔎 Research).
+- **[chakkyy/agent-utils](https://github.com/chakkyy/agent-utils)** - Bundles small, focused agent utilities: time-awareness, evidence-first checks, and more (⚙️ General-Purpose).
 - **[dair-ai/dair-academy-plugins - lesson-generator](https://github.com/dair-ai/dair-academy-plugins/tree/main/plugins/lesson-generator)** - Generates multi-lesson HTML courses with flashcards, quizzes, objectives, and source links (📋 Study & Productivity).
 - **[dair-ai/dair-academy-plugins - wiki-builder](https://github.com/dair-ai/dair-academy-plugins/tree/main/plugins/wiki-builder)** - Builds and maintains structured research wikis with sources, compiled pages, and derived artifacts (🔎 Research).
 - **[dair-ai/dair-academy-plugins - youtube-notetaker](https://github.com/dair-ai/dair-academy-plugins/tree/main/plugins/youtube-notetaker)** - Turns YouTube talks into local study notes with slides, transcripts, and editable annotations (📝 Note-Taking).
@@ -345,6 +350,7 @@ Each entry's parenthetical tag is its sub-area, so the flat list below stays sca
 - **[makenotion/claude-code-notion-plugin](https://github.com/makenotion/claude-code-notion-plugin)** - 🔑 Searches, creates, and edits Notion pages and databases from Claude Code (📝 Note-Taking).
 - **[obra/superpowers](https://github.com/obra/superpowers)** - 20+ skills for spec-to-code workflows with TDD, brainstorming, and subagent-driven planning commands (⚙️ General-Purpose).
 - **[olegvg/resume-tailor-plugin](https://github.com/olegvg/resume-tailor-plugin)** - Claude Code plugin that tailors your resume to a job post (💼 Career).
+- **[tydev-new/10xcolleges](https://github.com/tydev-new/10xcolleges)** - Builds a balanced reach/target/safety college list with cited research and coaching (💼 Career).
 - **[WenyuChiou/zotero-skills](https://github.com/WenyuChiou/zotero-skills)** - Searches, tags, and organizes Zotero references from your agent (🔎 Research).
 - **[yarikleto/claude-teacher-plugin](https://github.com/yarikleto/claude-teacher-plugin)** - Tutors any subject via Socratic quizzes, flashcards, and progress tracking (📋 Study & Productivity).
 

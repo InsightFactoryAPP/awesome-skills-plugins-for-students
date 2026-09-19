@@ -258,6 +258,16 @@
       "description": "Analyzes job descriptions and tailors resumes to highlight relevant experience and skills."
     },
     {
+      "name": "davila7-claude-code-templates-interactive-portfolio",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/davila7/claude-code-templates.git",
+        "path": "cli-tool/components/skills/creative-design/interactive-portfolio",
+        "ref": "main"
+      },
+      "description": "Scaffolds a personal portfolio or project website to link from applications."
+    },
+    {
       "name": "cooperwu-star-a-level-econ-marking-sample-cie-econ-essay",
       "source": {
         "source": "git-subdir",
@@ -539,6 +549,14 @@
       "description": "AI learning coach with spaced repetition, syllabi, and progress tracking."
     },
     {
+      "name": "egouilliard-leyton-python-tutor-skill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/egouilliard-leyton/python-tutor-skill.git"
+      },
+      "description": "Teaches Python fundamentals to beginners through exercises and Socratic feedback."
+    },
+    {
       "name": "hmohamed01-sql-expert",
       "source": {
         "source": "url",
@@ -594,6 +612,16 @@
         "url": "https://github.com/kevinryan-au/claude-cover-letter.git"
       },
       "description": "Turns a pasted job posting into a tailored, one-page cover letter."
+    },
+    {
+      "name": "haowjy-creative-writing-skills-story-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/haowjy/creative-writing-skills.git",
+        "path": "skills/story-review",
+        "ref": "main"
+      },
+      "description": "Gives editorial feedback on fiction and poetry drafts: voice, pacing, and craft."
     },
     {
       "name": "kgraph57-paper-writer-skill",
@@ -696,6 +724,14 @@
         "ref": "main"
       },
       "description": "Multi-session instructor that scaffolds HTML lessons, tracks learning records, and builds reference cheat sheets."
+    },
+    {
+      "name": "0x-man-mindmap-skill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/0x-man/mindmap-skill.git"
+      },
+      "description": "Generates interactive mind maps and concept maps from notes, topics, or documents."
     },
     {
       "name": "mordor-forge-study-skill",
@@ -1049,6 +1085,14 @@
       "description": "Turns YouTube talks into local study notes with slides, transcripts, and editable annotations."
     },
     {
+      "name": "chakkyy-agent-utils",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/chakkyy/agent-utils.git"
+      },
+      "description": "Bundles small, focused agent utilities: time-awareness, evidence-first checks, and more."
+    },
+    {
       "name": "danielrosehill-claude-career-plugin",
       "source": {
         "source": "url",
@@ -1063,6 +1107,14 @@
         "url": "https://github.com/dominiquevienne/claude-job-hunt.git"
       },
       "description": "🌐 Scans job boards, scores openings, and drafts tailored resumes and cover letters."
+    },
+    {
+      "name": "tydev-new-10xcolleges",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tydev-new/10xcolleges.git"
+      },
+      "description": "Builds a balanced reach/target/safety college list with cited research and coaching."
     },
     {
       "name": "emili-kosik-admission-skills",
@@ -1182,7 +1234,7 @@
     {
       "name": "study-productivity-bundle",
       "source": "./bundles/study-productivity-bundle",
-      "description": "Study & Productivity skills in one install (17 skills; 1 paid-key skill excluded, install separately).",
+      "description": "Study & Productivity skills in one install (18 skills; 1 paid-key skill excluded, install separately).",
       "dependencies": [
         "anthropics-docx",
         "anthropics-internal-comms",
@@ -1194,6 +1246,7 @@
         "jakedahn-pomodoro",
         "mattpocock-skills-handoff",
         "mattpocock-skills-teach",
+        "0x-man-mindmap-skill",
         "mordor-forge-study-skill",
         "peter209393-anki-card-skills",
         "pinakdhabu-exam-prompt",
@@ -1206,7 +1259,7 @@
     {
       "name": "coding-cs-bundle",
       "source": "./bundles/coding-cs-bundle",
-      "description": "Coding & CS Education skills in one install (18 skills).",
+      "description": "Coding & CS Education skills in one install (19 skills).",
       "dependencies": [
         "0xsarwagya-ontoly",
         "aidankinzett-claude-git-pr-skill",
@@ -1215,6 +1268,7 @@
         "composiohq-awesome-claude-skills-artifacts-builder",
         "composiohq-awesome-claude-skills-developer-growth-analysis",
         "florianbruniaux-claude-code-ultimate-guide-self-assessment",
+        "egouilliard-leyton-python-tutor-skill",
         "hmohamed01-sql-expert",
         "karanb192-algo-sensei",
         "kirilxd-claude-tutor",
@@ -1249,7 +1303,7 @@
     {
       "name": "writing-humanities-bundle",
       "source": "./bundles/writing-humanities-bundle",
-      "description": "Writing & Humanities skills in one install (13 skills).",
+      "description": "Writing & Humanities skills in one install (14 skills).",
       "dependencies": [
         "lishix520-academic-paper-skills",
         "basicmachines-co-basic-memory-memory-literary-analysis",
@@ -1257,6 +1311,7 @@
         "cooperwu-star-a-level-econ-marking-sample-cie-econ-essay",
         "davila7-claude-code-templates-email-composer",
         "tizzy916-humanities-writing-companion",
+        "haowjy-creative-writing-skills-story-review",
         "kgraph57-paper-writer-skill",
         "master-cai-research-paper-writing-skills",
         "neolabhq-context-engineering-kit-write-concisely",
@@ -1283,7 +1338,7 @@
     {
       "name": "college-career-bundle",
       "source": "./bundles/college-career-bundle",
-      "description": "College Applications & Career skills in one install (14 skills).",
+      "description": "College Applications & Career skills in one install (15 skills).",
       "dependencies": [
         "espindolavinicius-linkedin-growth-skill",
         "fronkt-academic-essay-reviewer",
@@ -1291,6 +1346,7 @@
         "borghei-claude-skills-research-grants",
         "composiohq-awesome-claude-skills-domain-name-brainstormer",
         "composiohq-awesome-claude-skills-tailored-resume-generator",
+        "davila7-claude-code-templates-interactive-portfolio",
         "kevinryan-au-claude-cover-letter",
         "paramchoudhary-resumeskills",
         "rx290-grant-compass",

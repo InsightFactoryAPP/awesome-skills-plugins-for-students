@@ -117,6 +117,19 @@
     "tag": "Note-Taking"
   },
   {
+    "name": "chakkyy/agent-utils",
+    "url": "https://github.com/chakkyy/agent-utils",
+    "description": "Bundles small, focused agent utilities: time-awareness, evidence-first checks, and more.",
+    "category": "Plugins",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ],
+    "tag": "General-Purpose"
+  },
+  {
     "name": "danielrosehill/Claude-Career-Plugin",
     "url": "https://github.com/danielrosehill/Claude-Career-Plugin",
     "description": "Bundles resume tailoring, cover letters, and interview prep in one plugin.",
@@ -135,6 +148,19 @@
     "description": "Scans job boards, scores openings, and drafts tailored resumes and cover letters.",
     "category": "Plugins",
     "marker": "external-service",
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ],
+    "tag": "Career"
+  },
+  {
+    "name": "tydev-new/10xcolleges",
+    "url": "https://github.com/tydev-new/10xcolleges",
+    "description": "Builds a balanced reach/target/safety college list with cited research and coaching.",
+    "category": "Plugins",
+    "marker": null,
     "supported_tools": [
       "claude-code",
       "cursor",

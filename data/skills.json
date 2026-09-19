@@ -337,6 +337,18 @@
     ]
   },
   {
+    "name": "davila7/claude-code-templates - interactive-portfolio",
+    "url": "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/creative-design/interactive-portfolio",
+    "description": "Scaffolds a personal portfolio or project website to link from applications.",
+    "category": "College Applications & Career",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
     "name": "CooperWu-star/A-Level-Econ-Marking-Sample - cie-econ-essay",
     "url": "https://github.com/CooperWu-star/A-Level-Econ-Marking-Sample/tree/main/cie-econ-essay",
     "description": "Marks and writes CIE A-Level Economics essays to grade descriptors.",
@@ -713,6 +725,18 @@
     ]
   },
   {
+    "name": "egouilliard-leyton/python-tutor-skill",
+    "url": "https://github.com/egouilliard-leyton/python-tutor-skill",
+    "description": "Teaches Python fundamentals to beginners through exercises and Socratic feedback.",
+    "category": "Coding & CS Education",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
     "name": "hmohamed01/SQL-Expert",
     "url": "https://github.com/hmohamed01/SQL-Expert",
     "description": "Guides writing, optimizing, and debugging T-SQL queries, good for SQL coursework practice.",
@@ -789,6 +813,18 @@
     "url": "https://github.com/kevinryan-au/claude-cover-letter",
     "description": "Turns a pasted job posting into a tailored, one-page cover letter.",
     "category": "College Applications & Career",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
+    "name": "haowjy/creative-writing-skills - story-review",
+    "url": "https://github.com/haowjy/creative-writing-skills/tree/main/skills/story-review",
+    "description": "Gives editorial feedback on fiction and poetry drafts: voice, pacing, and craft.",
+    "category": "Writing & Humanities",
     "marker": null,
     "supported_tools": [
       "claude-code",
@@ -920,6 +956,18 @@
     "name": "mattpocock/skills - teach",
     "url": "https://github.com/mattpocock/skills/tree/main/skills/productivity/teach",
     "description": "Multi-session instructor that scaffolds HTML lessons, tracks learning records, and builds reference cheat sheets.",
+    "category": "Study & Productivity",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
+    "name": "0x-man/mindmap-skill",
+    "url": "https://github.com/0x-man/mindmap-skill",
+    "description": "Generates interactive mind maps and concept maps from notes, topics, or documents.",
     "category": "Study & Productivity",
     "marker": null,
     "supported_tools": [
