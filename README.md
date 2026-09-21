@@ -11,7 +11,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-![Skills](https://img.shields.io/badge/skills-115-blue)
+![Skills](https://img.shields.io/badge/skills-116-blue)
 ![Plugins](https://img.shields.io/badge/plugins-26-purple)
 [![Changelog](https://img.shields.io/badge/changelog-v1.1.0-lightgrey.svg)](CHANGELOG.md)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-%E2%9C%93-orange)
@@ -86,7 +86,7 @@ see [CONTRIBUTING.md](CONTRIBUTING.md#install-bundles) for how it's kept in sync
 | | Section | Count |
 | :-: | --- | :-: |
 | 📚 | [IB & IGCSE Coursework](#ib--igcse-coursework) | 10 skills |
-| 🗂️ | [Study & Productivity](#study--productivity) | 19 skills |
+| 🗂️ | [Study & Productivity](#study--productivity) | 20 skills |
 | 💻 | [Coding & CS Education](#coding--cs-education) | 20 skills |
 | 🔬 | [STEM Subjects](#stem-subjects) | 14 skills |
 | ✍️ | [Writing & Humanities](#writing--humanities) | 15 skills |
@@ -132,7 +132,7 @@ Several spaced-repetition study tools overlap here. To pick one: **hluaguo/learn
 Three entries generate exam-prep material with no prior note on how they differ. **sickn33/agentic-awesome-skills - examprep-ai** (this section) ranks syllabus topics into a scored roadmap with MCQs and question prediction; **pinakdhabu/Exam-prompt** (this section) generates exam answers, notes, and study plans for any university; and **HashemALSKKkAF/exam-prep-mcq** (under [Google Workspace for Students](#google-workspace-for-students)) turns study material into an MCQ quiz delivered as a Google Form.
 
 <details open>
-<summary>Show 19 skills</summary>
+<summary>Show 20 skills</summary>
 
 - **[0x-man/mindmap-skill](https://github.com/0x-man/mindmap-skill)** - Generates interactive mind maps and concept maps from notes, topics, or documents.
 - **[anthropics/docx](https://officialskills.sh/anthropics/skills/docx)** - Creates and edits Word documents with tracked changes, comments, and formatting.
@@ -152,6 +152,7 @@ Three entries generate exam-prep material with no prior note on how they differ.
 - **[SeanZoR/claude-speed-reader](https://github.com/SeanZoR/claude-speed-reader)** - Speed-reads long responses at 600+ WPM using RSVP with ORP highlighting.
 - **[sickn33/agentic-awesome-skills - bulletmind](https://github.com/sickn33/agentic-awesome-skills/tree/main/skills/bulletmind)** - Converts any input into clean hierarchical bullet points for note-taking and summarization.
 - **[sickn33/agentic-awesome-skills - examprep-ai](https://github.com/sickn33/agentic-awesome-skills/tree/main/skills/examprep-ai)** - Converts syllabi, past papers, or notes into a ranked High Score Roadmap with MCQs and question prediction.
+- **[Vishnu-tppr/everything-cbse-board - revision-planner](https://github.com/Vishnu-tppr/everything-cbse-board/tree/main/12th/skills/revision-planner)** - Builds a day-by-day revision countdown across your weak subjects.
 - **[zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides)** - Builds animation-rich HTML presentations from scratch or converted from PowerPoint files.
 
 </details>

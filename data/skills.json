@@ -1375,5 +1375,17 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "Vishnu-tppr/everything-cbse-board - revision-planner",
+    "url": "https://github.com/Vishnu-tppr/everything-cbse-board/tree/main/12th/skills/revision-planner",
+    "description": "Builds a day-by-day revision countdown across your weak subjects.",
+    "category": "Study & Productivity",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]
