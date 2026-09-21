@@ -316,7 +316,7 @@ Skills for Google's tools: Docs, Slides, Classroom, and more. Useful if your sch
 
 </details>
 
-These skills require the [Google Workspace CLI (`gws`)](https://officialskills.sh/googleworkspace/skills/gws-shared) for auth. Install and authenticate once, then all `gws-*` skills work.
+These skills require the [Google Workspace CLI (`gws`)](https://officialskills.sh/googleworkspace/skills/gws-shared) for auth. Install and authenticate once, then all `gws-*` skills work. (Note: Google Vids itself exists, but there is currently no official `gws-vids` skill in the `gws` CLI.)
 
 ---
 

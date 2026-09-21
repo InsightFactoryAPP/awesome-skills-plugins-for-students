@@ -8,6 +8,10 @@ software), but releases are still tagged so changes are easy to point to.
 
 ## [Unreleased]
 
+### Changed
+
+- Investigated Google Vids skill availability: confirmed Google Vids itself exists, but no official `gws-vids` skill currently exists in the Google Workspace CLI (`googleworkspace/cli`); documented this status in the Google Workspace for Students section.
+
 ### Added (2026-09-15 issue-clearing pass)
 
 - Fixed the dead link on `24kchengYe/human-skill-tree - k12-sciences`: the
