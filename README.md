@@ -302,6 +302,8 @@ Several resume tools overlap here. To pick one: **tailored-resume-generator** an
 
 Skills for Google's tools: Docs, Slides, Classroom, and more. Useful if your school runs on Google Workspace for Education.
 
+Two entries touch Google Slides: **googleworkspace/gws-slides** is a general-purpose CLI tool for reading and writing slide presentations as part of the `gws` suite, while **eranw2000/google-slides-skill** is a specialized visual design and branding tool that redesigns existing decks and visually verifies the output.
+
 **HashemALSKKkAF/exam-prep-mcq** generates exam-prep MCQs like **sickn33/agentic-awesome-skills - examprep-ai** and **pinakdhabu/Exam-prompt** (both under [Study & Productivity](#study--productivity)), but its distinguishing feature is delivering the quiz as a native Google Form.
 
 <details open>
