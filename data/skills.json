@@ -1387,5 +1387,17 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "rwgb/vibe-guardrails - save-points",
+    "url": "https://github.com/rwgb/vibe-guardrails/tree/main/skills/save-points",
+    "description": "Teaches git commits and branches from zero as project save points.",
+    "category": "Coding & CS Education",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]

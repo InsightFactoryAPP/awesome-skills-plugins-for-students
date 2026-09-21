@@ -1037,6 +1037,16 @@
       "description": "Builds a day-by-day revision countdown across your weak subjects."
     },
     {
+      "name": "rwgb-vibe-guardrails-save-points",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rwgb/vibe-guardrails.git",
+        "path": "skills/save-points",
+        "ref": "main"
+      },
+      "description": "Teaches git commits and branches from zero as project save points."
+    },
+    {
       "name": "yarikleto-claude-teacher-plugin",
       "source": {
         "source": "url",
@@ -1308,7 +1318,7 @@
     {
       "name": "coding-cs-bundle",
       "source": "./bundles/coding-cs-bundle",
-      "description": "Coding & CS Education skills in one install (20 skills).",
+      "description": "Coding & CS Education skills in one install (21 skills).",
       "dependencies": [
         "0xsarwagya-ontoly",
         "aidankinzett-claude-git-pr-skill",
@@ -1329,7 +1339,8 @@
         "shauryagangrade-intent-drift-skill",
         "sickn33-agentic-awesome-skills-code-documentation-code-explain",
         "zarazhangrui-codebase-to-course",
-        "jimmytoluene-skill-adhd-healer-adhd-algorithms-tutor"
+        "jimmytoluene-skill-adhd-healer-adhd-algorithms-tutor",
+        "rwgb-vibe-guardrails-save-points"
       ]
     },
     {
