@@ -105,6 +105,8 @@ IA, EE, and TOK helpers: citation formatting, rubric feedback, and document tool
 
 See [EXAMPLES.md](EXAMPLES.md) for a worked walkthrough chaining several of these skills for one full IB Extended Essay, start to finish.
 
+Three entries overlap on IA/EE research and drafting with no prior note on how they differ. **davila7/claude-code-templates - literature-review** runs the research stage: systematic literature searches across academic databases with formatted citations. **Imbad0202/academic-research-skills** covers the full pipeline end to end — research, write, review, revise, and finalize — for when you want one skill to carry a draft the whole way. **David-Saeteros/claude-skills - academic-writing** is for once you already have a draft: it reviews and cites what you've written against supervisor feedback and style guides, rather than researching or drafting from scratch.
+
 <details open>
 <summary>Show 10 skills</summary>
 
