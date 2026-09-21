@@ -1047,6 +1047,16 @@
       "description": "Teaches git commits and branches from zero as project save points."
     },
     {
+      "name": "stab-rabbit-coding-securecontrollers-statics-and-dynamics",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Stab-Rabbit-coding/SecureControllers.git",
+        "path": ".claude/skills/statics-and-dynamics",
+        "ref": "main"
+      },
+      "description": "Solves statics and rigid-body dynamics problems with free-body diagrams."
+    },
+    {
       "name": "yarikleto-claude-teacher-plugin",
       "source": {
         "source": "url",
@@ -1346,7 +1356,7 @@
     {
       "name": "stem-bundle",
       "source": "./bundles/stem-bundle",
-      "description": "STEM Subjects skills in one install (11 skills; 3 paid-key skills excluded, install separately).",
+      "description": "STEM Subjects skills in one install (12 skills; 3 paid-key skills excluded, install separately).",
       "dependencies": [
         "24kchengye-human-skill-tree-k12-sciences",
         "abelsr-computational-physics",
@@ -1358,7 +1368,8 @@
         "majiayu000-claude-skill-registry-statistics-math",
         "openai-spreadsheet",
         "wentorai-research-plugins-inaturalist-api",
-        "zlanqing-codex-claude-academic-skills-scientific-toolkit-skill"
+        "zlanqing-codex-claude-academic-skills-scientific-toolkit-skill",
+        "stab-rabbit-coding-securecontrollers-statics-and-dynamics"
       ]
     },
     {

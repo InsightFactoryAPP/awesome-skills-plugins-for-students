@@ -1399,5 +1399,17 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "Stab-Rabbit-coding/SecureControllers - statics-and-dynamics",
+    "url": "https://github.com/Stab-Rabbit-coding/SecureControllers/tree/main/.claude/skills/statics-and-dynamics",
+    "description": "Solves statics and rigid-body dynamics problems with free-body diagrams.",
+    "category": "STEM Subjects",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]
