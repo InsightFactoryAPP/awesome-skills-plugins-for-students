@@ -8,6 +8,27 @@ software), but releases are still tagged so changes are easy to point to.
 
 ## [Unreleased]
 
+### Added (2026-09-21 issue-clearing pass)
+
+- 8 new entries closing #138, #148, #166, #167, #168, #169, #170, #171,
+  #172, and #176: `SkillMedev/skills - language-learning` (Language
+  Learning, closes both the thin-section and speaking-practice gaps),
+  `shinchit/gtd-zettelkasten` (Plugins, 📝 Note-Taking),
+  `JimmyToluene/Skill-ADHD-Healer - adhd-algorithms-tutor` (Coding & CS
+  Education), `JimmyToluene/Skill-ADHD-Healer - adhd-presentation-coach`
+  (Writing & Humanities), `Vishnu-tppr/everything-cbse-board -
+  revision-planner` (Study & Productivity), `rwgb/vibe-guardrails -
+  save-points` (Coding & CS Education), `Stab-Rabbit-coding/SecureControllers
+  - statics-and-dynamics` (STEM Subjects), `jantoney/SamStudies -
+  biology-tutor` (STEM Subjects), and `openclaw/gogcli - gog-sites`
+  (Google Workspace for Students, a real Google-API-backed alternative to
+  the browser-automation options ruled out in earlier passes). Skills
+  badge now reads 120, Plugins badge now reads 26.
+- A disambiguation note under IB & IGCSE Coursework distinguishing the
+  three overlapping research/writing entries. Closes #177.
+- A second worked example chain in EXAMPLES.md (a first CS side project,
+  git init through interview prep). Closes #174.
+
 ### Added (2026-09-15 issue-clearing pass)
 
 - Fixed the dead link on `24kchengYe/human-skill-tree - k12-sciences`: the
