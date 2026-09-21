@@ -11,7 +11,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-![Skills](https://img.shields.io/badge/skills-112-blue)
+![Skills](https://img.shields.io/badge/skills-113-blue)
 ![Plugins](https://img.shields.io/badge/plugins-25-purple)
 [![Changelog](https://img.shields.io/badge/changelog-v1.1.0-lightgrey.svg)](CHANGELOG.md)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-%E2%9C%93-orange)
@@ -90,7 +90,7 @@ see [CONTRIBUTING.md](CONTRIBUTING.md#install-bundles) for how it's kept in sync
 | 💻 | [Coding & CS Education](#coding--cs-education) | 19 skills |
 | 🔬 | [STEM Subjects](#stem-subjects) | 14 skills |
 | ✍️ | [Writing & Humanities](#writing--humanities) | 14 skills |
-| 🗣️ | [Language Learning](#language-learning) | 7 skills |
+| 🗣️ | [Language Learning](#language-learning) | 8 skills |
 | 🎓 | [College Applications & Career](#college-applications--career) | 15 skills |
 | 🔵 | [Google Workspace for Students](#google-workspace-for-students) | 14 skills |
 | 🧩 | [Plugins](#plugins) | 25 plugins |
@@ -246,7 +246,7 @@ Essay structuring, academic research, and literature analysis. See [Language Lea
 Translation practice, vocabulary drilling, and grammar correction in a target (non-English) language, for IB Language A/B and IGCSE second-language coursework.
 
 <details open>
-<summary>Show 7 skills</summary>
+<summary>Show 8 skills</summary>
 
 - **[13rianK/japanese-tutor](https://github.com/13rianK/japanese-tutor)** - Runs daily Japanese lessons with vocabulary, grammar, and graded practice.
 - **[dinqe/language-tutor](https://github.com/dinqe/language-tutor)** - Diagnoses your level and runs adaptive per-language tutoring sessions with an error ledger.
@@ -254,6 +254,7 @@ Translation practice, vocabulary drilling, and grammar correction in a target (n
 - **[hamsamilton/lang-tutor](https://github.com/hamsamilton/lang-tutor)** - Gives grammar corrections and vocabulary help in your target language.
 - **[JeremyJC67/super-translator](https://github.com/JeremyJC67/super-translator)** - Translates text and explains it through your mother language.
 - **[m98/fluent](https://github.com/m98/fluent)** - Drills vocabulary and corrects target-language writing using spaced repetition.
+- **[SkillMedev/skills - language-learning](https://github.com/SkillMedev/skills/tree/main/skills/language-learning)** - Plans language study with mandatory shadowing and early speaking practice.
 - **[tianmind-studio/english-coach](https://github.com/tianmind-studio/english-coach)** - Corrects English mistakes and teaches a micro-lesson during real conversations.
 
 </details>

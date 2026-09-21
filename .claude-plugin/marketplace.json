@@ -997,6 +997,16 @@
       "description": "Runs MATLAB/Python scientific computing, simulations, and publication-ready figures."
     },
     {
+      "name": "skillmedev-skills-language-learning",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SkillMedev/skills.git",
+        "path": "skills/language-learning",
+        "ref": "main"
+      },
+      "description": "Plans language study with mandatory shadowing and early speaking practice."
+    },
+    {
       "name": "yarikleto-claude-teacher-plugin",
       "source": {
         "source": "url",
@@ -1324,7 +1334,7 @@
     {
       "name": "language-learning-bundle",
       "source": "./bundles/language-learning-bundle",
-      "description": "Language Learning skills in one install (7 skills).",
+      "description": "Language Learning skills in one install (8 skills).",
       "dependencies": [
         "13riank-japanese-tutor",
         "gislio-claude-language-tutor",
@@ -1332,7 +1342,8 @@
         "dinqe-language-tutor",
         "hamsamilton-lang-tutor",
         "jeremyjc67-super-translator",
-        "m98-fluent"
+        "m98-fluent",
+        "skillmedev-skills-language-learning"
       ]
     },
     {

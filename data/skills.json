@@ -458,7 +458,11 @@
     "description": "Applies earth science and climate skills: seismic, well logs, 3D modelling, geostatistics.",
     "category": "STEM Subjects",
     "marker": null,
-    "supported_tools": ["claude-code", "cursor", "copilot"]
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   },
   {
     "name": "googlarz/math-skill",
@@ -1329,6 +1333,18 @@
     "url": "https://github.com/zLanqing/codex-claude-academic-skills/tree/main/scientific-toolkit-skill",
     "description": "Runs MATLAB/Python scientific computing, simulations, and publication-ready figures.",
     "category": "STEM Subjects",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
+    "name": "SkillMedev/skills - language-learning",
+    "url": "https://github.com/SkillMedev/skills/tree/main/skills/language-learning",
+    "description": "Plans language study with mandatory shadowing and early speaking practice.",
+    "category": "Language Learning",
     "marker": null,
     "supported_tools": [
       "claude-code",
