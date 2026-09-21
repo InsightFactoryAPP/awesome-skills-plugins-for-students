@@ -1423,5 +1423,17 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "openclaw/gogcli - gog-sites",
+    "url": "https://github.com/openclaw/gogcli/tree/main/.agents/skills/gog-sites",
+    "description": "Looks up and searches Google Sites via the `gog` CLI.",
+    "category": "Google Workspace for Students",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]

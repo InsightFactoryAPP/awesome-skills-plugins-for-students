@@ -1067,6 +1067,16 @@
       "description": "Explains cell biology, genetics, ecology, and evolution with diagrams."
     },
     {
+      "name": "openclaw-gogcli-gog-sites",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/openclaw/gogcli.git",
+        "path": ".agents/skills/gog-sites",
+        "ref": "main"
+      },
+      "description": "Looks up and searches Google Sites via the `gog` CLI."
+    },
+    {
       "name": "yarikleto-claude-teacher-plugin",
       "source": {
         "source": "url",
@@ -1445,7 +1455,7 @@
     {
       "name": "google-workspace-bundle",
       "source": "./bundles/google-workspace-bundle",
-      "description": "Google Workspace for Students skills in one install (14 skills).",
+      "description": "Google Workspace for Students skills in one install (15 skills).",
       "dependencies": [
         "eranw2000-google-slides-skill",
         "googleworkspace-cli-gws-meet",
@@ -1460,7 +1470,8 @@
         "googleworkspace-gws-sheets",
         "googleworkspace-gws-slides",
         "googleworkspace-gws-tasks",
-        "hashemalskkkaf-exam-prep-mcq"
+        "hashemalskkkaf-exam-prep-mcq",
+        "openclaw-gogcli-gog-sites"
       ]
     }
   ]
