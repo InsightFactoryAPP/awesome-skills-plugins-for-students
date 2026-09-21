@@ -1411,5 +1411,17 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "jantoney/SamStudies - biology-tutor",
+    "url": "https://github.com/jantoney/SamStudies/tree/main/.agents/skills/biology-tutor",
+    "description": "Explains cell biology, genetics, ecology, and evolution with diagrams.",
+    "category": "STEM Subjects",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]
