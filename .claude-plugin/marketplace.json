@@ -1007,6 +1007,16 @@
       "description": "Plans language study with mandatory shadowing and early speaking practice."
     },
     {
+      "name": "jimmytoluene-skill-adhd-healer-adhd-algorithms-tutor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/JimmyToluene/Skill-ADHD-Healer.git",
+        "path": "skills/adhd-algorithms-tutor",
+        "ref": "main"
+      },
+      "description": "Explains algorithms and Big-O complexity one concept at a time."
+    },
+    {
       "name": "yarikleto-claude-teacher-plugin",
       "source": {
         "source": "url",
@@ -1277,7 +1287,7 @@
     {
       "name": "coding-cs-bundle",
       "source": "./bundles/coding-cs-bundle",
-      "description": "Coding & CS Education skills in one install (19 skills).",
+      "description": "Coding & CS Education skills in one install (20 skills).",
       "dependencies": [
         "0xsarwagya-ontoly",
         "aidankinzett-claude-git-pr-skill",
@@ -1297,7 +1307,8 @@
         "openai-jupyter-notebook",
         "shauryagangrade-intent-drift-skill",
         "sickn33-agentic-awesome-skills-code-documentation-code-explain",
-        "zarazhangrui-codebase-to-course"
+        "zarazhangrui-codebase-to-course",
+        "jimmytoluene-skill-adhd-healer-adhd-algorithms-tutor"
       ]
     },
     {

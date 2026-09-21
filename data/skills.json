@@ -1351,5 +1351,17 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "JimmyToluene/Skill-ADHD-Healer - adhd-algorithms-tutor",
+    "url": "https://github.com/JimmyToluene/Skill-ADHD-Healer/tree/main/skills/adhd-algorithms-tutor",
+    "description": "Explains algorithms and Big-O complexity one concept at a time.",
+    "category": "Coding & CS Education",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]
