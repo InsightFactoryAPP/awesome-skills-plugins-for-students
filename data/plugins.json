@@ -323,5 +323,18 @@
       "copilot"
     ],
     "tag": "Research"
+  },
+  {
+    "name": "shinchit/gtd-zettelkasten",
+    "url": "https://github.com/shinchit/gtd-zettelkasten",
+    "description": "Builds a linked Zettelkasten note vault from daily GTD captures.",
+    "category": "Plugins",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ],
+    "tag": "Note-Taking"
   }
 ]
