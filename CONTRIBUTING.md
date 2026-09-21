@@ -126,6 +126,10 @@ Writing & Humanities for curriculum-agnostic academic-writing/research
 skills, or STEM Subjects / Coding & CS Education for subject-specific ones —
 the same place it would go for an IB/IGCSE student.
 
+Communication skills such as public speaking, debate, active listening, and
+presentation coaching belong under Writing & Humanities. Study & Productivity
+is for skills focused on organizing or carrying out study tasks.
+
 ---
 
 ## Counts are generated
