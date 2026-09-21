@@ -1363,5 +1363,17 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "JimmyToluene/Skill-ADHD-Healer - adhd-presentation-coach",
+    "url": "https://github.com/JimmyToluene/Skill-ADHD-Healer/tree/main/skills/adhd-presentation-coach",
+    "description": "Builds a talk stage by stage, then times the rehearsal.",
+    "category": "Writing & Humanities",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]

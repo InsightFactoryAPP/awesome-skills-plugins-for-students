@@ -11,7 +11,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-![Skills](https://img.shields.io/badge/skills-114-blue)
+![Skills](https://img.shields.io/badge/skills-115-blue)
 ![Plugins](https://img.shields.io/badge/plugins-26-purple)
 [![Changelog](https://img.shields.io/badge/changelog-v1.1.0-lightgrey.svg)](CHANGELOG.md)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-%E2%9C%93-orange)
@@ -89,7 +89,7 @@ see [CONTRIBUTING.md](CONTRIBUTING.md#install-bundles) for how it's kept in sync
 | 🗂️ | [Study & Productivity](#study--productivity) | 19 skills |
 | 💻 | [Coding & CS Education](#coding--cs-education) | 20 skills |
 | 🔬 | [STEM Subjects](#stem-subjects) | 14 skills |
-| ✍️ | [Writing & Humanities](#writing--humanities) | 14 skills |
+| ✍️ | [Writing & Humanities](#writing--humanities) | 15 skills |
 | 🗣️ | [Language Learning](#language-learning) | 8 skills |
 | 🎓 | [College Applications & Career](#college-applications--career) | 15 skills |
 | 🔵 | [Google Workspace for Students](#google-workspace-for-students) | 14 skills |
@@ -221,13 +221,14 @@ Math, physics, chemistry, and data analysis helpers.
 Essay structuring, academic research, and literature analysis. See [Language Learning](#language-learning) for target-language translation, vocabulary, and grammar practice.
 
 <details open>
-<summary>Show 14 skills</summary>
+<summary>Show 15 skills</summary>
 
 - **[basicmachines-co/basic-memory - memory-literary-analysis](https://github.com/basicmachines-co/basic-memory/tree/main/skills/memory-literary-analysis)** - Analyzes literary works into a searchable knowledge graph.
 - **[ComposioHQ/awesome-claude-skills - content-research-writer](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/content-research-writer)** - Researches sources, improves hooks, iterates on outlines, and adds citations to essays and articles.
 - **[CooperWu-star/A-Level-Econ-Marking-Sample - cie-econ-essay](https://github.com/CooperWu-star/A-Level-Econ-Marking-Sample/tree/main/cie-econ-essay)** - Marks and writes CIE A-Level Economics essays to grade descriptors.
 - **[davila7/claude-code-templates - email-composer](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/enterprise-communication/email-composer)** - Drafts professional emails, handy for messaging professors or admissions offices.
 - **[haowjy/creative-writing-skills - story-review](https://github.com/haowjy/creative-writing-skills/tree/main/skills/story-review)** - Gives editorial feedback on fiction and poetry drafts: voice, pacing, and craft.
+- **[JimmyToluene/Skill-ADHD-Healer - adhd-presentation-coach](https://github.com/JimmyToluene/Skill-ADHD-Healer/tree/main/skills/adhd-presentation-coach)** - Builds a talk stage by stage, then times the rehearsal.
 - **[kgraph57/paper-writer-skill](https://github.com/kgraph57/paper-writer-skill)** - Drafts IMRAD-structured scientific manuscripts, useful for lab reports and write-ups.
 - **[lishix520/academic-paper-skills](https://github.com/lishix520/academic-paper-skills)** - Plans and drafts academic papers through reviewer-simulated quality checkpoints.
 - **[Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills)** - Skill package for planning and writing research papers.
