@@ -1351,5 +1351,89 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "JimmyToluene/Skill-ADHD-Healer - adhd-algorithms-tutor",
+    "url": "https://github.com/JimmyToluene/Skill-ADHD-Healer/tree/main/skills/adhd-algorithms-tutor",
+    "description": "Explains algorithms and Big-O complexity one concept at a time.",
+    "category": "Coding & CS Education",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
+    "name": "JimmyToluene/Skill-ADHD-Healer - adhd-presentation-coach",
+    "url": "https://github.com/JimmyToluene/Skill-ADHD-Healer/tree/main/skills/adhd-presentation-coach",
+    "description": "Builds a talk stage by stage, then times the rehearsal.",
+    "category": "Writing & Humanities",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
+    "name": "Vishnu-tppr/everything-cbse-board - revision-planner",
+    "url": "https://github.com/Vishnu-tppr/everything-cbse-board/tree/main/12th/skills/revision-planner",
+    "description": "Builds a day-by-day revision countdown across your weak subjects.",
+    "category": "Study & Productivity",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
+    "name": "rwgb/vibe-guardrails - save-points",
+    "url": "https://github.com/rwgb/vibe-guardrails/tree/main/skills/save-points",
+    "description": "Teaches git commits and branches from zero as project save points.",
+    "category": "Coding & CS Education",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
+    "name": "Stab-Rabbit-coding/SecureControllers - statics-and-dynamics",
+    "url": "https://github.com/Stab-Rabbit-coding/SecureControllers/tree/main/.claude/skills/statics-and-dynamics",
+    "description": "Solves statics and rigid-body dynamics problems with free-body diagrams.",
+    "category": "STEM Subjects",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
+    "name": "jantoney/SamStudies - biology-tutor",
+    "url": "https://github.com/jantoney/SamStudies/tree/main/.agents/skills/biology-tutor",
+    "description": "Explains cell biology, genetics, ecology, and evolution with diagrams.",
+    "category": "STEM Subjects",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
+    "name": "openclaw/gogcli - gog-sites",
+    "url": "https://github.com/openclaw/gogcli/tree/main/.agents/skills/gog-sites",
+    "description": "Looks up and searches Google Sites via the `gog` CLI.",
+    "category": "Google Workspace for Students",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]

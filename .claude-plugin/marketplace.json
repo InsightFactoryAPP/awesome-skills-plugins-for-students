@@ -1007,6 +1007,76 @@
       "description": "Plans language study with mandatory shadowing and early speaking practice."
     },
     {
+      "name": "jimmytoluene-skill-adhd-healer-adhd-algorithms-tutor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/JimmyToluene/Skill-ADHD-Healer.git",
+        "path": "skills/adhd-algorithms-tutor",
+        "ref": "main"
+      },
+      "description": "Explains algorithms and Big-O complexity one concept at a time."
+    },
+    {
+      "name": "jimmytoluene-skill-adhd-healer-adhd-presentation-coach",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/JimmyToluene/Skill-ADHD-Healer.git",
+        "path": "skills/adhd-presentation-coach",
+        "ref": "main"
+      },
+      "description": "Builds a talk stage by stage, then times the rehearsal."
+    },
+    {
+      "name": "vishnu-tppr-everything-cbse-board-revision-planner",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Vishnu-tppr/everything-cbse-board.git",
+        "path": "12th/skills/revision-planner",
+        "ref": "main"
+      },
+      "description": "Builds a day-by-day revision countdown across your weak subjects."
+    },
+    {
+      "name": "rwgb-vibe-guardrails-save-points",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rwgb/vibe-guardrails.git",
+        "path": "skills/save-points",
+        "ref": "main"
+      },
+      "description": "Teaches git commits and branches from zero as project save points."
+    },
+    {
+      "name": "stab-rabbit-coding-securecontrollers-statics-and-dynamics",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Stab-Rabbit-coding/SecureControllers.git",
+        "path": ".claude/skills/statics-and-dynamics",
+        "ref": "main"
+      },
+      "description": "Solves statics and rigid-body dynamics problems with free-body diagrams."
+    },
+    {
+      "name": "jantoney-samstudies-biology-tutor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jantoney/SamStudies.git",
+        "path": ".agents/skills/biology-tutor",
+        "ref": "main"
+      },
+      "description": "Explains cell biology, genetics, ecology, and evolution with diagrams."
+    },
+    {
+      "name": "openclaw-gogcli-gog-sites",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/openclaw/gogcli.git",
+        "path": ".agents/skills/gog-sites",
+        "ref": "main"
+      },
+      "description": "Looks up and searches Google Sites via the `gog` CLI."
+    },
+    {
       "name": "yarikleto-claude-teacher-plugin",
       "source": {
         "source": "url",
@@ -1225,6 +1295,14 @@
       "description": "Searches, tags, and organizes Zotero references from your agent."
     },
     {
+      "name": "shinchit-gtd-zettelkasten",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/shinchit/gtd-zettelkasten.git"
+      },
+      "description": "Builds a linked Zettelkasten note vault from daily GTD captures."
+    },
+    {
       "name": "ib-igcse-bundle",
       "source": "./bundles/ib-igcse-bundle",
       "description": "IB & IGCSE Coursework skills in one install (10 skills).",
@@ -1244,7 +1322,7 @@
     {
       "name": "study-productivity-bundle",
       "source": "./bundles/study-productivity-bundle",
-      "description": "Study & Productivity skills in one install (18 skills; 1 paid-key skill excluded, install separately).",
+      "description": "Study & Productivity skills in one install (19 skills; 1 paid-key skill excluded, install separately).",
       "dependencies": [
         "anthropics-docx",
         "anthropics-internal-comms",
@@ -1263,13 +1341,14 @@
         "seanzor-claude-speed-reader",
         "sickn33-agentic-awesome-skills-bulletmind",
         "sickn33-agentic-awesome-skills-examprep-ai",
-        "zarazhangrui-frontend-slides"
+        "zarazhangrui-frontend-slides",
+        "vishnu-tppr-everything-cbse-board-revision-planner"
       ]
     },
     {
       "name": "coding-cs-bundle",
       "source": "./bundles/coding-cs-bundle",
-      "description": "Coding & CS Education skills in one install (19 skills).",
+      "description": "Coding & CS Education skills in one install (21 skills).",
       "dependencies": [
         "0xsarwagya-ontoly",
         "aidankinzett-claude-git-pr-skill",
@@ -1289,13 +1368,15 @@
         "openai-jupyter-notebook",
         "shauryagangrade-intent-drift-skill",
         "sickn33-agentic-awesome-skills-code-documentation-code-explain",
-        "zarazhangrui-codebase-to-course"
+        "zarazhangrui-codebase-to-course",
+        "jimmytoluene-skill-adhd-healer-adhd-algorithms-tutor",
+        "rwgb-vibe-guardrails-save-points"
       ]
     },
     {
       "name": "stem-bundle",
       "source": "./bundles/stem-bundle",
-      "description": "STEM Subjects skills in one install (11 skills; 3 paid-key skills excluded, install separately).",
+      "description": "STEM Subjects skills in one install (13 skills; 3 paid-key skills excluded, install separately).",
       "dependencies": [
         "24kchengye-human-skill-tree-k12-sciences",
         "abelsr-computational-physics",
@@ -1307,13 +1388,15 @@
         "majiayu000-claude-skill-registry-statistics-math",
         "openai-spreadsheet",
         "wentorai-research-plugins-inaturalist-api",
-        "zlanqing-codex-claude-academic-skills-scientific-toolkit-skill"
+        "zlanqing-codex-claude-academic-skills-scientific-toolkit-skill",
+        "stab-rabbit-coding-securecontrollers-statics-and-dynamics",
+        "jantoney-samstudies-biology-tutor"
       ]
     },
     {
       "name": "writing-humanities-bundle",
       "source": "./bundles/writing-humanities-bundle",
-      "description": "Writing & Humanities skills in one install (14 skills).",
+      "description": "Writing & Humanities skills in one install (15 skills).",
       "dependencies": [
         "lishix520-academic-paper-skills",
         "basicmachines-co-basic-memory-memory-literary-analysis",
@@ -1328,7 +1411,8 @@
         "phuryn-pm-skills-grammar-check",
         "wentorai-research-claw-citation-styles",
         "wentorai-research-plugins-history-research-guide",
-        "xwmxcz-papers-skill"
+        "xwmxcz-papers-skill",
+        "jimmytoluene-skill-adhd-healer-adhd-presentation-coach"
       ]
     },
     {
@@ -1371,7 +1455,7 @@
     {
       "name": "google-workspace-bundle",
       "source": "./bundles/google-workspace-bundle",
-      "description": "Google Workspace for Students skills in one install (14 skills).",
+      "description": "Google Workspace for Students skills in one install (15 skills).",
       "dependencies": [
         "eranw2000-google-slides-skill",
         "googleworkspace-cli-gws-meet",
@@ -1386,7 +1470,8 @@
         "googleworkspace-gws-sheets",
         "googleworkspace-gws-slides",
         "googleworkspace-gws-tasks",
-        "hashemalskkkaf-exam-prep-mcq"
+        "hashemalskkkaf-exam-prep-mcq",
+        "openclaw-gogcli-gog-sites"
       ]
     }
   ]
