@@ -1115,6 +1115,16 @@
       "description": "Drafts and critiques grad-school statements of purpose using genre-analysis research."
     },
     {
+      "name": "nickcrew-claude-cortex-regex-master",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/NickCrew/Claude-Cortex.git",
+        "path": "skills/regex-master",
+        "ref": "main"
+      },
+      "description": "Builds, explains, and debugs regular expressions token by token."
+    },
+    {
       "name": "yarikleto-claude-teacher-plugin",
       "source": {
         "source": "url",
@@ -1386,7 +1396,7 @@
     {
       "name": "coding-cs-bundle",
       "source": "./bundles/coding-cs-bundle",
-      "description": "Coding & CS Education skills in one install (22 skills).",
+      "description": "Coding & CS Education skills in one install (23 skills).",
       "dependencies": [
         "0xsarwagya-ontoly",
         "aidankinzett-claude-git-pr-skill",
@@ -1409,7 +1419,8 @@
         "zarazhangrui-codebase-to-course",
         "jimmytoluene-skill-adhd-healer-adhd-algorithms-tutor",
         "rwgb-vibe-guardrails-save-points",
-        "danielpodolsky-ownyourcode-database-fundamentals"
+        "danielpodolsky-ownyourcode-database-fundamentals",
+        "nickcrew-claude-cortex-regex-master"
       ]
     },
     {

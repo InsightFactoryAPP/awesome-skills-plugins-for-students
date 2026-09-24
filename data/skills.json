@@ -1483,5 +1483,17 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "NickCrew/Claude-Cortex - regex-master",
+    "url": "https://github.com/NickCrew/Claude-Cortex/tree/main/skills/regex-master",
+    "description": "Builds, explains, and debugs regular expressions token by token.",
+    "category": "Coding & CS Education",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]
