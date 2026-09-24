@@ -402,7 +402,7 @@
         "url": "https://github.com/googleworkspace/cli.git",
         "path": "skills/gws-classroom"
       },
-      "description": "Manage Google Classroom classes, rosters, and coursework via the `gws` CLI."
+      "description": "Manages Google Classroom courses and coursework for teachers/TAs via the `gws` CLI (not student-facing)."
     },
     {
       "name": "googleworkspace-gws-docs",

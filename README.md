@@ -321,7 +321,7 @@ Two entries touch Google Slides: **googleworkspace/gws-slides** is a general-pur
 - **[googleworkspace/cli - gws-meet](https://github.com/googleworkspace/cli/tree/main/skills/gws-meet)** - Manages Google Meet conference spaces, recordings, and transcripts via the `gws` CLI.
 - **[googleworkspace/gws-calendar](https://officialskills.sh/googleworkspace/skills/gws-calendar)** - Manage calendars, events, and free/busy queries via the `gws` CLI.
 - **[googleworkspace/gws-chat](https://officialskills.sh/googleworkspace/skills/gws-chat)** - Manages Google Chat spaces, messages, and memberships via the `gws` CLI.
-- **[googleworkspace/gws-classroom](https://officialskills.sh/googleworkspace/skills/gws-classroom)** - Manage Google Classroom classes, rosters, and coursework via the `gws` CLI.
+- **[googleworkspace/gws-classroom](https://officialskills.sh/googleworkspace/skills/gws-classroom)** - Manages Google Classroom courses and coursework for teachers/TAs via the `gws` CLI (not student-facing).
 - **[googleworkspace/gws-docs](https://officialskills.sh/googleworkspace/skills/gws-docs)** - Read and write Google Docs documents via the `gws` CLI.
 - **[googleworkspace/gws-drive](https://officialskills.sh/googleworkspace/skills/gws-drive)** - Manage Google Drive files, folders, and shared drives, handy for keeping coursework organized.
 - **[googleworkspace/gws-forms](https://officialskills.sh/googleworkspace/skills/gws-forms)** - Create Google Forms, edit questions, and read responses via the `gws` CLI, handy for quizzes and surveys.
