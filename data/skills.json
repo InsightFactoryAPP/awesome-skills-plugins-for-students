@@ -1447,5 +1447,17 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "jantoney/SamStudies - chemistry-tutor",
+    "url": "https://github.com/jantoney/SamStudies/tree/main/.agents/skills/chemistry-tutor",
+    "description": "Covers organic, inorganic, physical, and analytical chemistry with worked examples.",
+    "category": "STEM Subjects",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]
