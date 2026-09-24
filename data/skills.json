@@ -1435,5 +1435,17 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "DanielPodolsky/ownyourcode - database-fundamentals",
+    "url": "https://github.com/DanielPodolsky/ownyourcode/tree/main/.claude/skills/fundamentals/database",
+    "description": "Reviews schema design, normalization, indexes, and migrations against a junior-dev checklist.",
+    "category": "Coding & CS Education",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]

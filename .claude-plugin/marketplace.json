@@ -1077,6 +1077,16 @@
       "description": "Looks up and searches Google Sites via the `gog` CLI."
     },
     {
+      "name": "danielpodolsky-ownyourcode-database-fundamentals",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/DanielPodolsky/ownyourcode.git",
+        "path": ".claude/skills/fundamentals/database",
+        "ref": "main"
+      },
+      "description": "Reviews schema design, normalization, indexes, and migrations against a junior-dev checklist."
+    },
+    {
       "name": "yarikleto-claude-teacher-plugin",
       "source": {
         "source": "url",
@@ -1348,7 +1358,7 @@
     {
       "name": "coding-cs-bundle",
       "source": "./bundles/coding-cs-bundle",
-      "description": "Coding & CS Education skills in one install (21 skills).",
+      "description": "Coding & CS Education skills in one install (22 skills).",
       "dependencies": [
         "0xsarwagya-ontoly",
         "aidankinzett-claude-git-pr-skill",
@@ -1370,7 +1380,8 @@
         "sickn33-agentic-awesome-skills-code-documentation-code-explain",
         "zarazhangrui-codebase-to-course",
         "jimmytoluene-skill-adhd-healer-adhd-algorithms-tutor",
-        "rwgb-vibe-guardrails-save-points"
+        "rwgb-vibe-guardrails-save-points",
+        "danielpodolsky-ownyourcode-database-fundamentals"
       ]
     },
     {
