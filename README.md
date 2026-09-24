@@ -12,7 +12,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 ![Skills](https://img.shields.io/badge/skills-126-blue)
-![Plugins](https://img.shields.io/badge/plugins-26-purple)
+![Plugins](https://img.shields.io/badge/plugins-27-purple)
 [![Changelog](https://img.shields.io/badge/changelog-v1.1.0-lightgrey.svg)](CHANGELOG.md)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-%E2%9C%93-orange)
 ![Cursor](https://img.shields.io/badge/Cursor-%E2%9C%93-1e90ff)
@@ -93,7 +93,7 @@ see [CONTRIBUTING.md](CONTRIBUTING.md#install-bundles) for how it's kept in sync
 | 🗣️ | [Language Learning](#language-learning) | 9 skills |
 | 🎓 | [College Applications & Career](#college-applications--career) | 16 skills |
 | 🔵 | [Google Workspace for Students](#google-workspace-for-students) | 15 skills |
-| 🧩 | [Plugins](#plugins) | 26 plugins |
+| 🧩 | [Plugins](#plugins) | 27 plugins |
 
 [Install a bundle in one command](#install-a-bundle-in-one-command) &middot; [Compatibility Paths](#compatibility-paths) &middot; [Security Notice](#security-notice) &middot; [Quality Standards](#quality-standards) &middot; [Contributing](#contributing) &middot; [Contributors](#contributors) &middot; [More from StudentSuite](#more-from-studentsuite) &middot; [Sister lists](#sister-lists) &middot; [License](#license)
 
@@ -344,7 +344,7 @@ Full Claude Code, Cursor, or Copilot plugins for students: bundles of commands, 
 Each entry's parenthetical tag is its sub-area, so the flat list below stays scannable as it grows: **📋 Study & Productivity** (tutoring, note capture, flashcards, lesson/course generation), **🔎 Research** (literature review, citation management, research pipelines), **📝 Note-Taking** (video/lecture notes, notebook organization), **💼 Career** (resume, applications, interview prep), or **⚙️ General-Purpose** (not tied to a subject or workflow above).
 
 <details open>
-<summary>Show 26 plugins</summary>
+<summary>Show 27 plugins</summary>
 
 - **[alirezarezvani/claude-skills - productivity/capture](https://github.com/alirezarezvani/claude-skills/tree/main/productivity/capture)** - Organizes a brain-dump of mixed thoughts, tasks, and ideas into an actionable list (📋 Study & Productivity).
 - **[alirezarezvani/claude-skills - productivity/deep-work](https://github.com/alirezarezvani/claude-skills/tree/main/productivity/deep-work)** - Time-blocks the day into deep and shallow work with focus blocks, Cal Newport style (📋 Study & Productivity).
@@ -358,6 +358,7 @@ Each entry's parenthetical tag is its sub-area, so the flat list below stays sca
 - **[danielrosehill/Claude-Career-Plugin](https://github.com/danielrosehill/Claude-Career-Plugin)** - Bundles resume tailoring, cover letters, and interview prep in one plugin (💼 Career).
 - **[dominiquevienne/claude-job-hunt](https://github.com/dominiquevienne/claude-job-hunt)** - 🌐 Scans job boards, scores openings, and drafts tailored resumes and cover letters (💼 Career).
 - **[emili-kosik/admission-skills](https://github.com/emili-kosik/admission-skills)** - Tracks college application deadlines, checklists, and exports a reminder calendar (💼 Career).
+- **[GaZmagik/iso-24495](https://github.com/GaZmagik/iso-24495)** - Rewrites writing, code, and documents to ISO 24495 plain-language rules (⚙️ General-Purpose).
 - **[jacquardlabs/study-skills](https://github.com/jacquardlabs/study-skills)** - Turns lecture slides into flashcards, quizzes, and study milestones (📋 Study & Productivity).
 - **[JeanDiable/academic-research-plugin](https://github.com/JeanDiable/academic-research-plugin)** - Plugin for literature surveys, paper reviews, and citation management (🔎 Research).
 - **[jeffersongoncalves/claude-code-obsidian-notes](https://github.com/jeffersongoncalves/claude-code-obsidian-notes)** - Persists documentation, decisions, and summaries as notes in an Obsidian vault (📝 Note-Taking).

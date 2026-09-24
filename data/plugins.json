@@ -336,5 +336,18 @@
       "copilot"
     ],
     "tag": "Note-Taking"
+  },
+  {
+    "name": "GaZmagik/iso-24495",
+    "url": "https://github.com/GaZmagik/iso-24495",
+    "description": "Rewrites writing, code, and documents to ISO 24495 plain-language rules.",
+    "category": "Plugins",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ],
+    "tag": "General-Purpose"
   }
 ]
