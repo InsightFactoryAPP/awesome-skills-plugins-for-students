@@ -1125,6 +1125,14 @@
       "description": "Builds, explains, and debugs regular expressions token by token."
     },
     {
+      "name": "uriva-language-learning",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/uriva/language-learning.git"
+      },
+      "description": "Runs SLA-research-based language lessons across 11 languages with comprehensible input."
+    },
+    {
       "name": "yarikleto-claude-teacher-plugin",
       "source": {
         "source": "url",
@@ -1470,7 +1478,7 @@
     {
       "name": "language-learning-bundle",
       "source": "./bundles/language-learning-bundle",
-      "description": "Language Learning skills in one install (8 skills).",
+      "description": "Language Learning skills in one install (9 skills).",
       "dependencies": [
         "13riank-japanese-tutor",
         "gislio-claude-language-tutor",
@@ -1479,7 +1487,8 @@
         "hamsamilton-lang-tutor",
         "jeremyjc67-super-translator",
         "m98-fluent",
-        "skillmedev-skills-language-learning"
+        "skillmedev-skills-language-learning",
+        "uriva-language-learning"
       ]
     },
     {

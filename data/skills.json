@@ -1495,5 +1495,17 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "uriva/language-learning",
+    "url": "https://github.com/uriva/language-learning",
+    "description": "Runs SLA-research-based language lessons across 11 languages with comprehensible input.",
+    "category": "Language Learning",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]
