@@ -1459,5 +1459,17 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "gnurio/nurijanian-skills - rulebook-for-arguments",
+    "url": "https://github.com/gnurio/nurijanian-skills/tree/main/skills/rulebook-for-arguments",
+    "description": "Builds and audits philosophical arguments using Weston's Rulebook for Arguments.",
+    "category": "Writing & Humanities",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]

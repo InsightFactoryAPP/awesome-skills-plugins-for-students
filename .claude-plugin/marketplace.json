@@ -1097,6 +1097,16 @@
       "description": "Covers organic, inorganic, physical, and analytical chemistry with worked examples."
     },
     {
+      "name": "gnurio-nurijanian-skills-rulebook-for-arguments",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/gnurio/nurijanian-skills.git",
+        "path": "skills/rulebook-for-arguments",
+        "ref": "main"
+      },
+      "description": "Builds and audits philosophical arguments using Weston's Rulebook for Arguments."
+    },
+    {
       "name": "yarikleto-claude-teacher-plugin",
       "source": {
         "source": "url",
@@ -1418,7 +1428,7 @@
     {
       "name": "writing-humanities-bundle",
       "source": "./bundles/writing-humanities-bundle",
-      "description": "Writing & Humanities skills in one install (15 skills).",
+      "description": "Writing & Humanities skills in one install (16 skills).",
       "dependencies": [
         "lishix520-academic-paper-skills",
         "basicmachines-co-basic-memory-memory-literary-analysis",
@@ -1434,7 +1444,8 @@
         "wentorai-research-claw-citation-styles",
         "wentorai-research-plugins-history-research-guide",
         "xwmxcz-papers-skill",
-        "jimmytoluene-skill-adhd-healer-adhd-presentation-coach"
+        "jimmytoluene-skill-adhd-healer-adhd-presentation-coach",
+        "gnurio-nurijanian-skills-rulebook-for-arguments"
       ]
     },
     {
