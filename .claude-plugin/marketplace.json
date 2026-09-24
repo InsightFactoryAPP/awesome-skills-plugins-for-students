@@ -1107,6 +1107,14 @@
       "description": "Builds and audits philosophical arguments using Weston's Rulebook for Arguments."
     },
     {
+      "name": "haadhi76-sop-consultant",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Haadhi76/SOP_Consultant.git"
+      },
+      "description": "Drafts and critiques grad-school statements of purpose using genre-analysis research."
+    },
+    {
       "name": "yarikleto-claude-teacher-plugin",
       "source": {
         "source": "url",
@@ -1466,7 +1474,7 @@
     {
       "name": "college-career-bundle",
       "source": "./bundles/college-career-bundle",
-      "description": "College Applications & Career skills in one install (15 skills).",
+      "description": "College Applications & Career skills in one install (16 skills).",
       "dependencies": [
         "espindolavinicius-linkedin-growth-skill",
         "fronkt-academic-essay-reviewer",
@@ -1482,7 +1490,8 @@
         "shauryagangrade-scout-issue",
         "sourikduttanyu-interview-prep",
         "varunr89-resume-tailoring-skill",
-        "x-tong6-pscher"
+        "x-tong6-pscher",
+        "haadhi76-sop-consultant"
       ]
     },
     {
