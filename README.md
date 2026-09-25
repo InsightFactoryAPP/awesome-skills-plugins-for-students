@@ -11,7 +11,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-![Skills](https://img.shields.io/badge/skills-134-blue)
+![Skills](https://img.shields.io/badge/skills-135-blue)
 ![Plugins](https://img.shields.io/badge/plugins-27-purple)
 [![Changelog](https://img.shields.io/badge/changelog-v1.1.0-lightgrey.svg)](CHANGELOG.md)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-%E2%9C%93-orange)
@@ -156,6 +156,7 @@ Three entries generate exam-prep material with no prior note on how they differ.
 - **[sickn33/agentic-awesome-skills - bulletmind](https://github.com/sickn33/agentic-awesome-skills/tree/main/skills/bulletmind)** - Converts any input into clean hierarchical bullet points for note-taking and summarization.
 - **[sickn33/agentic-awesome-skills - examprep-ai](https://github.com/sickn33/agentic-awesome-skills/tree/main/skills/examprep-ai)** - Converts syllabi, past papers, or notes into a ranked High Score Roadmap with MCQs and question prediction.
 - **[Vishnu-tppr/everything-cbse-board - revision-planner](https://github.com/Vishnu-tppr/everything-cbse-board/tree/main/12th/skills/revision-planner)** - Builds a day-by-day revision countdown across your weak subjects.
+- **[yylo-dev/yylo-skills - plan-ledger-tasks-yylo](https://github.com/yylo-dev/yylo-skills/tree/main/skills/plan-ledger-tasks-yylo)** - Breaks big projects into requirements and sized, tracked agent tasks.
 - **[zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides)** - Builds animation-rich HTML presentations from scratch or converted from PowerPoint files.
 
 </details>

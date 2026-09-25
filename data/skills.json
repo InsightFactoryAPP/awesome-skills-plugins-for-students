@@ -1521,6 +1521,17 @@
     ]
   },
   {
+    "name": "yylo-dev/yylo-skills - plan-ledger-tasks-yylo",
+    "url": "https://github.com/yylo-dev/yylo-skills/tree/main/skills/plan-ledger-tasks-yylo",
+    "description": "Breaks big projects into requirements and sized, tracked agent tasks.",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
     "name": "noamseg/interview-coach-skill",
     "url": "https://github.com/noamseg/interview-coach-skill",
     "description": "Coaches networking outreach, informational-interview requests, and referral asks for job seekers.",
