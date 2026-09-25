@@ -1151,6 +1151,16 @@
       "description": "Coaches networking outreach, informational-interview requests, and referral asks for job seekers."
     },
     {
+      "name": "finewood2008-centaurai-team-team-project-tracker",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/finewood2008/centaurai-team.git",
+        "path": "skills/builtin/team/team-project-tracker",
+        "ref": "team"
+      },
+      "description": "Tracks a group project's tasks, owners, and deadlines on a shared markdown kanban board."
+    },
+    {
       "name": "yarikleto-claude-teacher-plugin",
       "source": {
         "source": "url",
@@ -1404,7 +1414,7 @@
     {
       "name": "study-productivity-bundle",
       "source": "./bundles/study-productivity-bundle",
-      "description": "Study & Productivity skills in one install (19 skills; 1 paid-key skill excluded, install separately).",
+      "description": "Study & Productivity skills in one install (20 skills; 1 paid-key skill excluded, install separately).",
       "dependencies": [
         "anthropics-docx",
         "anthropics-internal-comms",
@@ -1424,7 +1434,8 @@
         "sickn33-agentic-awesome-skills-bulletmind",
         "sickn33-agentic-awesome-skills-examprep-ai",
         "zarazhangrui-frontend-slides",
-        "vishnu-tppr-everything-cbse-board-revision-planner"
+        "vishnu-tppr-everything-cbse-board-revision-planner",
+        "finewood2008-centaurai-team-team-project-tracker"
       ]
     },
     {

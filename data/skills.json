@@ -1531,5 +1531,17 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "finewood2008/centaurai-team - team-project-tracker",
+    "url": "https://github.com/finewood2008/centaurai-team/tree/team/skills/builtin/team/team-project-tracker",
+    "description": "Tracks a group project's tasks, owners, and deadlines on a shared markdown kanban board.",
+    "category": "Study & Productivity",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]
