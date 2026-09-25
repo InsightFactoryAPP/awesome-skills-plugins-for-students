@@ -1143,6 +1143,16 @@
       "description": "Writes HSK-leveled Chinese graded readers chapter by chapter with vocabulary validation."
     },
     {
+      "name": "yylo-dev-yylo-skills-plan-ledger-tasks-yylo",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/yylo-dev/yylo-skills.git",
+        "path": "skills/plan-ledger-tasks-yylo",
+        "ref": "main"
+      },
+      "description": "Breaks big projects into requirements and sized, tracked agent tasks."
+    },
+    {
       "name": "noamseg-interview-coach-skill",
       "source": {
         "source": "url",
@@ -1245,16 +1255,6 @@
         "ref": "main"
       },
       "description": "Runs a multi-source research pipeline with citations for high-stakes research questions."
-    },
-    {
-          "name": "yylo-dev-yylo-skills-plan-ledger-tasks-yylo",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/yylo-dev/yylo-skills.git",
-        "path": "skills/plan-ledger-tasks-yylo",
-        "ref": "main"
-      },
-      "description": "Breaks big projects into requirements and sized, tracked agent tasks."
     },
     {
       "name": "alirezarezvani-claude-skills-research-litreview",
@@ -1472,7 +1472,7 @@
     {
       "name": "study-productivity-bundle",
       "source": "./bundles/study-productivity-bundle",
-      "description": "Study & Productivity skills in one install (20 skills; 1 paid-key skill excluded, install separately).",
+      "description": "Study & Productivity skills in one install (21 skills; 1 paid-key skill excluded, install separately).",
       "dependencies": [
         "anthropics-docx",
         "anthropics-internal-comms",
@@ -1493,7 +1493,7 @@
         "sickn33-agentic-awesome-skills-examprep-ai",
         "zarazhangrui-frontend-slides",
         "vishnu-tppr-everything-cbse-board-revision-planner",
-        "yylo-dev-yylo-skills-plan-ledger-tasks-yylo"
+        "yylo-dev-yylo-skills-plan-ledger-tasks-yylo",
         "finewood2008-centaurai-team-team-project-tracker"
       ]
     },
