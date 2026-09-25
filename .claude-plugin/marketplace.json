@@ -1143,6 +1143,14 @@
       "description": "Writes HSK-leveled Chinese graded readers chapter by chapter with vocabulary validation."
     },
     {
+      "name": "noamseg-interview-coach-skill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/noamseg/interview-coach-skill.git"
+      },
+      "description": "Coaches networking outreach, informational-interview requests, and referral asks for job seekers."
+    },
+    {
       "name": "yarikleto-claude-teacher-plugin",
       "source": {
         "source": "url",
@@ -1513,7 +1521,7 @@
     {
       "name": "college-career-bundle",
       "source": "./bundles/college-career-bundle",
-      "description": "College Applications & Career skills in one install (16 skills).",
+      "description": "College Applications & Career skills in one install (17 skills).",
       "dependencies": [
         "espindolavinicius-linkedin-growth-skill",
         "fronkt-academic-essay-reviewer",
@@ -1530,7 +1538,8 @@
         "sourikduttanyu-interview-prep",
         "varunr89-resume-tailoring-skill",
         "x-tong6-pscher",
-        "haadhi76-sop-consultant"
+        "haadhi76-sop-consultant",
+        "noamseg-interview-coach-skill"
       ]
     },
     {

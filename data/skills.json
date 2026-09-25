@@ -1519,5 +1519,17 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "noamseg/interview-coach-skill",
+    "url": "https://github.com/noamseg/interview-coach-skill",
+    "description": "Coaches networking outreach, informational-interview requests, and referral asks for job seekers.",
+    "category": "College Applications & Career",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]
