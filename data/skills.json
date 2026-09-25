@@ -1579,5 +1579,17 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "OneWave-AI/claude-skills - debate-simulator",
+    "url": "https://github.com/OneWave-AI/claude-skills/tree/main/debate-simulator",
+    "description": "Runs structured debates with opposing personas: openings, rebuttals, cross-exam, closings.",
+    "category": "Writing & Humanities",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]

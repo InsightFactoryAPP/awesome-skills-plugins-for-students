@@ -1187,6 +1187,16 @@
       "description": "Builds and publishes Google Sites pages by driving the visual editor directly."
     },
     {
+      "name": "onewave-ai-claude-skills-debate-simulator",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OneWave-AI/claude-skills.git",
+        "path": "debate-simulator",
+        "ref": "main"
+      },
+      "description": "Runs structured debates with opposing personas: openings, rebuttals, cross-exam, closings."
+    },
+    {
       "name": "yarikleto-claude-teacher-plugin",
       "source": {
         "source": "url",
@@ -1520,7 +1530,7 @@
     {
       "name": "writing-humanities-bundle",
       "source": "./bundles/writing-humanities-bundle",
-      "description": "Writing & Humanities skills in one install (16 skills).",
+      "description": "Writing & Humanities skills in one install (17 skills).",
       "dependencies": [
         "lishix520-academic-paper-skills",
         "basicmachines-co-basic-memory-memory-literary-analysis",
@@ -1537,7 +1547,8 @@
         "wentorai-research-plugins-history-research-guide",
         "xwmxcz-papers-skill",
         "jimmytoluene-skill-adhd-healer-adhd-presentation-coach",
-        "gnurio-nurijanian-skills-rulebook-for-arguments"
+        "gnurio-nurijanian-skills-rulebook-for-arguments",
+        "onewave-ai-claude-skills-debate-simulator"
       ]
     },
     {
