@@ -1603,5 +1603,17 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "majiayu000/claude-skill-registry - environmental-geography",
+    "url": "https://github.com/majiayu000/claude-skill-registry/tree/main/skills/domains/environmental-geography",
+    "description": "Covers climate change, land use, water, biodiversity, and sustainability science.",
+    "category": "STEM Subjects",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]
