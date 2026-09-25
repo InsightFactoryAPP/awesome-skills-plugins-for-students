@@ -1569,18 +1569,6 @@
     ]
   },
   {
-    "name": "pleak88/claude-google-sites-builder",
-    "url": "https://github.com/pleak88/claude-google-sites-builder",
-    "description": "Builds and publishes Google Sites pages by driving the visual editor directly.",
-    "category": "Google Workspace for Students",
-    "marker": null,
-    "supported_tools": [
-      "claude-code",
-      "cursor",
-      "copilot"
-    ]
-  },
-  {
     "name": "OneWave-AI/claude-skills - debate-simulator",
     "url": "https://github.com/OneWave-AI/claude-skills/tree/main/debate-simulator",
     "description": "Runs structured debates with opposing personas: openings, rebuttals, cross-exam, closings.",
