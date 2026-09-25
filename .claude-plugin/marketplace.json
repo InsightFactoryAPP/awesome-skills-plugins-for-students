@@ -1179,6 +1179,14 @@
       "description": "Teaches terminal and bash fundamentals from zero across 17 sandboxed units."
     },
     {
+      "name": "pleak88-claude-google-sites-builder",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pleak88/claude-google-sites-builder.git"
+      },
+      "description": "Builds and publishes Google Sites pages by driving the visual editor directly."
+    },
+    {
       "name": "yarikleto-claude-teacher-plugin",
       "source": {
         "source": "url",
@@ -1576,7 +1584,7 @@
     {
       "name": "google-workspace-bundle",
       "source": "./bundles/google-workspace-bundle",
-      "description": "Google Workspace for Students skills in one install (15 skills).",
+      "description": "Google Workspace for Students skills in one install (16 skills).",
       "dependencies": [
         "eranw2000-google-slides-skill",
         "googleworkspace-cli-gws-meet",
@@ -1592,7 +1600,8 @@
         "googleworkspace-gws-slides",
         "googleworkspace-gws-tasks",
         "hashemalskkkaf-exam-prep-mcq",
-        "openclaw-gogcli-gog-sites"
+        "openclaw-gogcli-gog-sites",
+        "pleak88-claude-google-sites-builder"
       ]
     }
   ]
