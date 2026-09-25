@@ -1161,6 +1161,16 @@
       "description": "Tracks a group project's tasks, owners, and deadlines on a shared markdown kanban board."
     },
     {
+      "name": "yappologistic-csharp-tutor-csharp-oop",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/yappologistic/CSharp-Tutor.git",
+        "path": "csharp-oop",
+        "ref": "master"
+      },
+      "description": "Teaches beginner-friendly OOP fundamentals, SOLID, and design patterns in C#."
+    },
+    {
       "name": "yarikleto-claude-teacher-plugin",
       "source": {
         "source": "url",
@@ -1441,7 +1451,7 @@
     {
       "name": "coding-cs-bundle",
       "source": "./bundles/coding-cs-bundle",
-      "description": "Coding & CS Education skills in one install (23 skills).",
+      "description": "Coding & CS Education skills in one install (24 skills).",
       "dependencies": [
         "0xsarwagya-ontoly",
         "aidankinzett-claude-git-pr-skill",
@@ -1465,7 +1475,8 @@
         "jimmytoluene-skill-adhd-healer-adhd-algorithms-tutor",
         "rwgb-vibe-guardrails-save-points",
         "danielpodolsky-ownyourcode-database-fundamentals",
-        "nickcrew-claude-cortex-regex-master"
+        "nickcrew-claude-cortex-regex-master",
+        "yappologistic-csharp-tutor-csharp-oop"
       ]
     },
     {

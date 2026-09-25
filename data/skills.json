@@ -1543,5 +1543,17 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "yappologistic/CSharp-Tutor - csharp-oop",
+    "url": "https://github.com/yappologistic/CSharp-Tutor/tree/master/csharp-oop",
+    "description": "Teaches beginner-friendly OOP fundamentals, SOLID, and design patterns in C#.",
+    "category": "Coding & CS Education",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]
