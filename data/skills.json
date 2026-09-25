@@ -1507,5 +1507,17 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "yylo-dev/yylo-skills - plan-ledger-tasks-yylo",
+    "url": "https://github.com/yylo-dev/yylo-skills/tree/main/skills/plan-ledger-tasks-yylo",
+    "description": "Breaks big projects into requirements and sized, tracked agent tasks.",
+    "category": "Study & Productivity",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]

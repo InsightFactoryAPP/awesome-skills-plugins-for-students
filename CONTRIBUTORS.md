@@ -17,6 +17,7 @@ against the [Quality Standards](README.md#quality-standards), and open a PR.
 - [@meraayman](https://github.com/meraayman) - added a skill entry
 - [@propcgamer20-png](https://github.com/propcgamer20-png) - added student-relevant skills
 - [@ResourceMint](https://github.com/ResourceMint) - added the sister-list cross-link footer
+- [@InsightFactoryAPP](https://github.com/InsightFactoryAPP) - added a skill entry
 - [@YourUncleJGD](https://github.com/YourUncleJGD) - added a plugin entry
 
 Open a PR that adds or fixes an entry and your name goes here. If you would
