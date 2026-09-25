@@ -1615,5 +1615,17 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "yylo-dev/yylo-skills - understand-project-yylo",
+    "url": "https://github.com/yylo-dev/yylo-skills/tree/main/skills/understand-project-yylo",
+    "description": "Inspects architecture, dependencies, and validation loops before planning a change.",
+    "category": "Coding & CS Education",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]
