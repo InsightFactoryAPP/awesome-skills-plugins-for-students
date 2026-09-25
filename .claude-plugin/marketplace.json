@@ -1133,6 +1133,16 @@
       "description": "Runs SLA-research-based language lessons across 11 languages with comprehensible input."
     },
     {
+      "name": "santimator-x3-suite-graded-reader",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Santimator/x3-suite.git",
+        "path": "ai-tools/graded-reader",
+        "ref": "main"
+      },
+      "description": "Writes HSK-leveled Chinese graded readers chapter by chapter with vocabulary validation."
+    },
+    {
       "name": "yarikleto-claude-teacher-plugin",
       "source": {
         "source": "url",
@@ -1486,7 +1496,7 @@
     {
       "name": "language-learning-bundle",
       "source": "./bundles/language-learning-bundle",
-      "description": "Language Learning skills in one install (9 skills).",
+      "description": "Language Learning skills in one install (10 skills).",
       "dependencies": [
         "13riank-japanese-tutor",
         "gislio-claude-language-tutor",
@@ -1496,7 +1506,8 @@
         "jeremyjc67-super-translator",
         "m98-fluent",
         "skillmedev-skills-language-learning",
-        "uriva-language-learning"
+        "uriva-language-learning",
+        "santimator-x3-suite-graded-reader"
       ]
     },
     {

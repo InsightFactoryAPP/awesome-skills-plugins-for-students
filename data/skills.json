@@ -1507,5 +1507,17 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "Santimator/x3-suite - graded-reader",
+    "url": "https://github.com/Santimator/x3-suite/tree/main/ai-tools/graded-reader",
+    "description": "Writes HSK-leveled Chinese graded readers chapter by chapter with vocabulary validation.",
+    "category": "Language Learning",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]
