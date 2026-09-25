@@ -1555,5 +1555,17 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "mayakas/Claude-Bash-Tutor-Skill",
+    "url": "https://github.com/mayakas/Claude-Bash-Tutor-Skill",
+    "description": "Teaches terminal and bash fundamentals from zero across 17 sandboxed units.",
+    "category": "Coding & CS Education",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]

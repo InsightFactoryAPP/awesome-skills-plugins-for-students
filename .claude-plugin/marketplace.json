@@ -1171,6 +1171,14 @@
       "description": "Teaches beginner-friendly OOP fundamentals, SOLID, and design patterns in C#."
     },
     {
+      "name": "mayakas-claude-bash-tutor-skill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mayakas/Claude-Bash-Tutor-Skill.git"
+      },
+      "description": "Teaches terminal and bash fundamentals from zero across 17 sandboxed units."
+    },
+    {
       "name": "yarikleto-claude-teacher-plugin",
       "source": {
         "source": "url",
@@ -1451,7 +1459,7 @@
     {
       "name": "coding-cs-bundle",
       "source": "./bundles/coding-cs-bundle",
-      "description": "Coding & CS Education skills in one install (24 skills).",
+      "description": "Coding & CS Education skills in one install (25 skills).",
       "dependencies": [
         "0xsarwagya-ontoly",
         "aidankinzett-claude-git-pr-skill",
@@ -1476,7 +1484,8 @@
         "rwgb-vibe-guardrails-save-points",
         "danielpodolsky-ownyourcode-database-fundamentals",
         "nickcrew-claude-cortex-regex-master",
-        "yappologistic-csharp-tutor-csharp-oop"
+        "yappologistic-csharp-tutor-csharp-oop",
+        "mayakas-claude-bash-tutor-skill"
       ]
     },
     {
