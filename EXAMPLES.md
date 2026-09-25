@@ -103,3 +103,46 @@ about it.
 
 That's six skills, one side project, from `git init` to an interview where
 you can actually explain what you built and why.
+
+---
+
+## Worked example: a grad-school application, cold outreach to a funded offer
+
+A third chain, for [College Applications & Career](README.md#college-applications--career) —
+from not knowing anyone in the field to an admissions interview for a funded
+program. Same idea as the two walkthroughs above: each step names one entry
+already in [README.md](README.md), install whichever ones you need (see
+[Compatibility Paths](README.md#compatibility-paths)), and run them in order.
+
+### 1. Find people to talk to
+
+Before you write a word of the application, talk to people already in the
+field so the application reflects a real understanding of the program, not a
+guess.
+
+- **[noamseg/interview-coach-skill](https://github.com/noamseg/interview-coach-skill)** coaches the cold networking outreach: finding potential advisors or current students, and drafting the informational-interview ask itself.
+
+### 2. Draft the statement of purpose
+
+With a clearer sense of the field and the program, turn that into a draft.
+
+- **[Haadhi76/SOP_Consultant](https://github.com/Haadhi76/SOP_Consultant)** drafts and critiques the statement of purpose using genre-analysis research into what actually reads well.
+
+### 3. Pitch it for funding
+
+An application is stronger with funding already scoped rather than left as an
+afterthought.
+
+- **[borghei/Claude-Skills - research/grants](https://github.com/borghei/Claude-Skills/tree/main/research/grants)** structures a scholarship or grant pitch around fit, narrative, and budget instead of boilerplate.
+
+### 4. Rehearse the admissions interview
+
+Once the application is in, rehearse the conversation before it happens for
+real.
+
+- **[sourikduttanyu/interview-prep](https://github.com/sourikduttanyu/interview-prep)** builds a tailored prep kit from the SOP and program details, so the same narrative holds up under questioning.
+
+---
+
+That's four skills, one application, from a cold email to an interview for a
+program you can already speak about like you belong there.

@@ -1133,14 +1133,80 @@
       "description": "Runs SLA-research-based language lessons across 11 languages with comprehensible input."
     },
     {
-      "name": "yylo-dev-yylo-skills-plan-ledger-tasks-yylo",
+      "name": "santimator-x3-suite-graded-reader",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/yylo-dev/yylo-skills.git",
-        "path": "skills/plan-ledger-tasks-yylo",
+        "url": "https://github.com/Santimator/x3-suite.git",
+        "path": "ai-tools/graded-reader",
         "ref": "main"
       },
-      "description": "Breaks big projects into requirements and sized, tracked agent tasks."
+      "description": "Writes HSK-leveled Chinese graded readers chapter by chapter with vocabulary validation."
+    },
+    {
+      "name": "noamseg-interview-coach-skill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/noamseg/interview-coach-skill.git"
+      },
+      "description": "Coaches networking outreach, informational-interview requests, and referral asks for job seekers."
+    },
+    {
+      "name": "finewood2008-centaurai-team-team-project-tracker",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/finewood2008/centaurai-team.git",
+        "path": "skills/builtin/team/team-project-tracker",
+        "ref": "team"
+      },
+      "description": "Tracks a group project's tasks, owners, and deadlines on a shared markdown kanban board."
+    },
+    {
+      "name": "yappologistic-csharp-tutor-csharp-oop",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/yappologistic/CSharp-Tutor.git",
+        "path": "csharp-oop",
+        "ref": "master"
+      },
+      "description": "Teaches beginner-friendly OOP fundamentals, SOLID, and design patterns in C#."
+    },
+    {
+      "name": "mayakas-claude-bash-tutor-skill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mayakas/Claude-Bash-Tutor-Skill.git"
+      },
+      "description": "Teaches terminal and bash fundamentals from zero across 17 sandboxed units."
+    },
+    {
+      "name": "onewave-ai-claude-skills-debate-simulator",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OneWave-AI/claude-skills.git",
+        "path": "debate-simulator",
+        "ref": "main"
+      },
+      "description": "Runs structured debates with opposing personas: openings, rebuttals, cross-exam, closings."
+    },
+    {
+      "name": "somenssarkar-gurukul-ai-gurukul-ai-physics",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/somenssarkar/gurukul-ai.git",
+        "path": ".claude/skills/gurukul-ai-physics",
+        "ref": "main"
+      },
+      "description": "Tutors physics concepts via Socratic questioning, diagrams, and misconception checks."
+    },
+    {
+      "name": "majiayu000-claude-skill-registry-environmental-geography",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/majiayu000/claude-skill-registry.git",
+        "path": "skills/domains/environmental-geography",
+        "ref": "main"
+      },
+      "description": "Covers climate change, land use, water, biodiversity, and sustainability science."
     },
     {
       "name": "yarikleto-claude-teacher-plugin",
@@ -1179,6 +1245,16 @@
         "ref": "main"
       },
       "description": "Runs a multi-source research pipeline with citations for high-stakes research questions."
+    },
+    {
+          "name": "yylo-dev-yylo-skills-plan-ledger-tasks-yylo",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/yylo-dev/yylo-skills.git",
+        "path": "skills/plan-ledger-tasks-yylo",
+        "ref": "main"
+      },
+      "description": "Breaks big projects into requirements and sized, tracked agent tasks."
     },
     {
       "name": "alirezarezvani-claude-skills-research-litreview",
@@ -1418,12 +1494,13 @@
         "zarazhangrui-frontend-slides",
         "vishnu-tppr-everything-cbse-board-revision-planner",
         "yylo-dev-yylo-skills-plan-ledger-tasks-yylo"
+        "finewood2008-centaurai-team-team-project-tracker"
       ]
     },
     {
       "name": "coding-cs-bundle",
       "source": "./bundles/coding-cs-bundle",
-      "description": "Coding & CS Education skills in one install (23 skills).",
+      "description": "Coding & CS Education skills in one install (25 skills).",
       "dependencies": [
         "0xsarwagya-ontoly",
         "aidankinzett-claude-git-pr-skill",
@@ -1447,13 +1524,15 @@
         "jimmytoluene-skill-adhd-healer-adhd-algorithms-tutor",
         "rwgb-vibe-guardrails-save-points",
         "danielpodolsky-ownyourcode-database-fundamentals",
-        "nickcrew-claude-cortex-regex-master"
+        "nickcrew-claude-cortex-regex-master",
+        "yappologistic-csharp-tutor-csharp-oop",
+        "mayakas-claude-bash-tutor-skill"
       ]
     },
     {
       "name": "stem-bundle",
       "source": "./bundles/stem-bundle",
-      "description": "STEM Subjects skills in one install (14 skills; 3 paid-key skills excluded, install separately).",
+      "description": "STEM Subjects skills in one install (16 skills; 3 paid-key skills excluded, install separately).",
       "dependencies": [
         "24kchengye-human-skill-tree-k12-sciences",
         "abelsr-computational-physics",
@@ -1468,13 +1547,15 @@
         "zlanqing-codex-claude-academic-skills-scientific-toolkit-skill",
         "stab-rabbit-coding-securecontrollers-statics-and-dynamics",
         "jantoney-samstudies-biology-tutor",
-        "jantoney-samstudies-chemistry-tutor"
+        "jantoney-samstudies-chemistry-tutor",
+        "somenssarkar-gurukul-ai-gurukul-ai-physics",
+        "majiayu000-claude-skill-registry-environmental-geography"
       ]
     },
     {
       "name": "writing-humanities-bundle",
       "source": "./bundles/writing-humanities-bundle",
-      "description": "Writing & Humanities skills in one install (16 skills).",
+      "description": "Writing & Humanities skills in one install (17 skills).",
       "dependencies": [
         "lishix520-academic-paper-skills",
         "basicmachines-co-basic-memory-memory-literary-analysis",
@@ -1491,13 +1572,14 @@
         "wentorai-research-plugins-history-research-guide",
         "xwmxcz-papers-skill",
         "jimmytoluene-skill-adhd-healer-adhd-presentation-coach",
-        "gnurio-nurijanian-skills-rulebook-for-arguments"
+        "gnurio-nurijanian-skills-rulebook-for-arguments",
+        "onewave-ai-claude-skills-debate-simulator"
       ]
     },
     {
       "name": "language-learning-bundle",
       "source": "./bundles/language-learning-bundle",
-      "description": "Language Learning skills in one install (9 skills).",
+      "description": "Language Learning skills in one install (10 skills).",
       "dependencies": [
         "13riank-japanese-tutor",
         "gislio-claude-language-tutor",
@@ -1507,13 +1589,14 @@
         "jeremyjc67-super-translator",
         "m98-fluent",
         "skillmedev-skills-language-learning",
-        "uriva-language-learning"
+        "uriva-language-learning",
+        "santimator-x3-suite-graded-reader"
       ]
     },
     {
       "name": "college-career-bundle",
       "source": "./bundles/college-career-bundle",
-      "description": "College Applications & Career skills in one install (16 skills).",
+      "description": "College Applications & Career skills in one install (17 skills).",
       "dependencies": [
         "espindolavinicius-linkedin-growth-skill",
         "fronkt-academic-essay-reviewer",
@@ -1530,7 +1613,8 @@
         "sourikduttanyu-interview-prep",
         "varunr89-resume-tailoring-skill",
         "x-tong6-pscher",
-        "haadhi76-sop-consultant"
+        "haadhi76-sop-consultant",
+        "noamseg-interview-coach-skill"
       ]
     },
     {

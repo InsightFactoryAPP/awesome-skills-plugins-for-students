@@ -1509,10 +1509,105 @@
     ]
   },
   {
+    "name": "Santimator/x3-suite - graded-reader",
+    "url": "https://github.com/Santimator/x3-suite/tree/main/ai-tools/graded-reader",
+    "description": "Writes HSK-leveled Chinese graded readers chapter by chapter with vocabulary validation.",
+    "category": "Language Learning",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
     "name": "yylo-dev/yylo-skills - plan-ledger-tasks-yylo",
     "url": "https://github.com/yylo-dev/yylo-skills/tree/main/skills/plan-ledger-tasks-yylo",
     "description": "Breaks big projects into requirements and sized, tracked agent tasks.",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
+    "name": "noamseg/interview-coach-skill",
+    "url": "https://github.com/noamseg/interview-coach-skill",
+    "description": "Coaches networking outreach, informational-interview requests, and referral asks for job seekers.",
+    "category": "College Applications & Career",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
+    "name": "finewood2008/centaurai-team - team-project-tracker",
+    "url": "https://github.com/finewood2008/centaurai-team/tree/team/skills/builtin/team/team-project-tracker",
+    "description": "Tracks a group project's tasks, owners, and deadlines on a shared markdown kanban board.",
     "category": "Study & Productivity",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
+    "name": "yappologistic/CSharp-Tutor - csharp-oop",
+    "url": "https://github.com/yappologistic/CSharp-Tutor/tree/master/csharp-oop",
+    "description": "Teaches beginner-friendly OOP fundamentals, SOLID, and design patterns in C#.",
+    "category": "Coding & CS Education",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
+    "name": "mayakas/Claude-Bash-Tutor-Skill",
+    "url": "https://github.com/mayakas/Claude-Bash-Tutor-Skill",
+    "description": "Teaches terminal and bash fundamentals from zero across 17 sandboxed units.",
+    "category": "Coding & CS Education",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
+    "name": "OneWave-AI/claude-skills - debate-simulator",
+    "url": "https://github.com/OneWave-AI/claude-skills/tree/main/debate-simulator",
+    "description": "Runs structured debates with opposing personas: openings, rebuttals, cross-exam, closings.",
+    "category": "Writing & Humanities",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
+    "name": "somenssarkar/gurukul-ai - gurukul-ai-physics",
+    "url": "https://github.com/somenssarkar/gurukul-ai/tree/main/.claude/skills/gurukul-ai-physics",
+    "description": "Tutors physics concepts via Socratic questioning, diagrams, and misconception checks.",
+    "category": "STEM Subjects",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
+  },
+  {
+    "name": "majiayu000/claude-skill-registry - environmental-geography",
+    "url": "https://github.com/majiayu000/claude-skill-registry/tree/main/skills/domains/environmental-geography",
+    "description": "Covers climate change, land use, water, biodiversity, and sustainability science.",
+    "category": "STEM Subjects",
     "marker": null,
     "supported_tools": [
       "claude-code",

@@ -11,7 +11,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-![Skills](https://img.shields.io/badge/skills-127-blue)
+![Skills](https://img.shields.io/badge/skills-135-blue)
 ![Plugins](https://img.shields.io/badge/plugins-27-purple)
 [![Changelog](https://img.shields.io/badge/changelog-v1.1.0-lightgrey.svg)](CHANGELOG.md)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-%E2%9C%93-orange)
@@ -87,11 +87,11 @@ see [CONTRIBUTING.md](CONTRIBUTING.md#install-bundles) for how it's kept in sync
 | :-: | --- | :-: |
 | 📚 | [IB & IGCSE Coursework](#ib--igcse-coursework) | 10 skills |
 | 🗂️ | [Study & Productivity](#study--productivity) | 21 skills |
-| 💻 | [Coding & CS Education](#coding--cs-education) | 23 skills |
-| 🔬 | [STEM Subjects](#stem-subjects) | 17 skills |
-| ✍️ | [Writing & Humanities](#writing--humanities) | 16 skills |
-| 🗣️ | [Language Learning](#language-learning) | 9 skills |
-| 🎓 | [College Applications & Career](#college-applications--career) | 16 skills |
+| 💻 | [Coding & CS Education](#coding--cs-education) | 25 skills |
+| 🔬 | [STEM Subjects](#stem-subjects) | 19 skills |
+| ✍️ | [Writing & Humanities](#writing--humanities) | 17 skills |
+| 🗣️ | [Language Learning](#language-learning) | 10 skills |
+| 🎓 | [College Applications & Career](#college-applications--career) | 17 skills |
 | 🔵 | [Google Workspace for Students](#google-workspace-for-students) | 15 skills |
 | 🧩 | [Plugins](#plugins) | 27 plugins |
 
@@ -143,6 +143,7 @@ Three entries generate exam-prep material with no prior note on how they differ.
 - **[bevibing/tutor-skills](https://github.com/bevibing/tutor-skills)** - Turns PDFs, docs, or codebases into Obsidian study vaults with interactive quizzes.
 - **[ComposioHQ/awesome-claude-skills - document-skills/pptx](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/document-skills/pptx)** - Creates, edits, and analyzes .pptx presentations.
 - **[ComposioHQ/awesome-claude-skills - file-organizer](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/file-organizer)** - Organizes files and folders, finds duplicates, and cleans up your digital workspace.
+- **[finewood2008/centaurai-team - team-project-tracker](https://github.com/finewood2008/centaurai-team/tree/team/skills/builtin/team/team-project-tracker)** - Tracks a group project's tasks, owners, and deadlines on a shared markdown kanban board.
 - **[hluaguo/learn-faster-kit](https://github.com/hluaguo/learn-faster-kit)** - AI learning coach with spaced repetition, syllabi, and progress tracking.
 - **[jakedahn/pomodoro](https://github.com/jakedahn/pomodoro)** - Pomodoro timer skill that tracks and learns from your focus sessions.
 - **[mattpocock/skills - handoff](https://github.com/mattpocock/skills/tree/main/skills/productivity/handoff)** - Compresses a long study session into a handoff doc so a fresh agent can continue where you left off.
@@ -167,7 +168,7 @@ Three entries generate exam-prep material with no prior note on how they differ.
 Algorithm and debugging explainers, learn-to-code starters, and CS project tooling.
 
 <details open>
-<summary>Show 23 skills</summary>
+<summary>Show 25 skills</summary>
 
 - **[0xsarwagya/ontoly](https://github.com/0xsarwagya/ontoly)** - Maps codebases into graph-backed architecture evidence.
 - **[aidankinzett/claude-git-pr-skill](https://github.com/aidankinzett/claude-git-pr-skill)** - Runs consistent, professional GitHub pull-request reviews with pending reviews and code suggestions.
@@ -186,11 +187,13 @@ Algorithm and debugging explainers, learn-to-code starters, and CS project tooli
 - **[mattpocock/skills - git-guardrails-claude-code](https://github.com/mattpocock/skills/tree/main/skills/misc/git-guardrails-claude-code)** - Blocks dangerous git commands (push, reset --hard, clean) via Claude Code hooks.
 - **[mattpocock/skills - resolving-merge-conflicts](https://github.com/mattpocock/skills/tree/main/skills/engineering/resolving-merge-conflicts)** - Walks through resolving an in-progress git merge or rebase conflict step by step.
 - **[mattpocock/skills - tdd](https://github.com/mattpocock/skills/tree/main/skills/engineering/tdd)** - Guides test-driven development with red-green-refactor cycles and behavior-focused tests.
+- **[mayakas/Claude-Bash-Tutor-Skill](https://github.com/mayakas/Claude-Bash-Tutor-Skill)** - Teaches terminal and bash fundamentals from zero across 17 sandboxed units.
 - **[NickCrew/Claude-Cortex - regex-master](https://github.com/NickCrew/Claude-Cortex/tree/main/skills/regex-master)** - Builds, explains, and debugs regular expressions token by token.
 - **[openai/jupyter-notebook](https://officialskills.sh/openai/skills/jupyter-notebook)** - Creates clean, reproducible Jupyter notebooks for experiments and tutorials, essential for data science coursework.
 - **[rwgb/vibe-guardrails - save-points](https://github.com/rwgb/vibe-guardrails/tree/main/skills/save-points)** - Teaches git commits and branches from zero as project save points.
 - **[shauryagangrade/intent-drift-skill](https://github.com/shauryagangrade/intent-drift-skill)** - Detects when AI-assisted coding drifts from the original goal and prompts you to re-align.
 - **[sickn33/agentic-awesome-skills - code-documentation-code-explain](https://github.com/sickn33/agentic-awesome-skills/tree/main/skills/code-documentation-code-explain)** - Explains complex code through narratives, visual diagrams, and step-by-step breakdowns.
+- **[yappologistic/CSharp-Tutor - csharp-oop](https://github.com/yappologistic/CSharp-Tutor/tree/master/csharp-oop)** - Teaches beginner-friendly OOP fundamentals, SOLID, and design patterns in C#.
 - **[zarazhangrui/codebase-to-course](https://github.com/zarazhangrui/codebase-to-course)** - Turns any codebase into an interactive HTML course for beginners.
 
 </details>
@@ -202,7 +205,7 @@ Algorithm and debugging explainers, learn-to-code starters, and CS project tooli
 Math, physics, chemistry, and data analysis helpers.
 
 <details open>
-<summary>Show 17 skills</summary>
+<summary>Show 19 skills</summary>
 
 - **[24kchengYe/human-skill-tree - k12-sciences](https://github.com/24kchengYe/human-skill-tree/tree/master/skills/01-k12-sciences)** - Tutors K-12 physics, chemistry, and biology through Socratic, inquiry-based questioning.
 - **[abelsr/Computational-Physics](https://github.com/abelsr/Computational-Physics)** - Solves physics problems with Python and Jupyter notebooks, from mechanics to electromagnetism.
@@ -214,8 +217,10 @@ Math, physics, chemistry, and data analysis helpers.
 - **[jantoney/SamStudies - biology-tutor](https://github.com/jantoney/SamStudies/tree/main/.agents/skills/biology-tutor)** - Explains cell biology, genetics, ecology, and evolution with diagrams.
 - **[jantoney/SamStudies - chemistry-tutor](https://github.com/jantoney/SamStudies/tree/main/.agents/skills/chemistry-tutor)** - Covers organic, inorganic, physical, and analytical chemistry with worked examples.
 - **[juanlurg/data-science-claude-skills - experiment-tracker](https://github.com/juanlurg/data-science-claude-skills)** - Logs, compares, and visualizes lab experiment runs and results with local JSON storage.
+- **[majiayu000/claude-skill-registry - environmental-geography](https://github.com/majiayu000/claude-skill-registry/tree/main/skills/domains/environmental-geography)** - Covers climate change, land use, water, biodiversity, and sustainability science.
 - **[majiayu000/claude-skill-registry - statistics-math](https://github.com/majiayu000/claude-skill-registry/tree/main/skills/data/statistics-math)** - Applies statistical tests, probability calculations, and distribution analysis to data.
 - **[openai/spreadsheet](https://officialskills.sh/openai/skills/spreadsheet)** - Creates, edits, analyzes, and visualizes spreadsheets with formulas, handy for physics data tables and chemistry calculations.
+- **[somenssarkar/gurukul-ai - gurukul-ai-physics](https://github.com/somenssarkar/gurukul-ai/tree/main/.claude/skills/gurukul-ai-physics)** - Tutors physics concepts via Socratic questioning, diagrams, and misconception checks.
 - **[Stab-Rabbit-coding/SecureControllers - statics-and-dynamics](https://github.com/Stab-Rabbit-coding/SecureControllers/tree/main/.claude/skills/statics-and-dynamics)** - Solves statics and rigid-body dynamics problems with free-body diagrams.
 - **[SteadfastAsArt/geoscience-skills](https://github.com/SteadfastAsArt/geoscience-skills)** - Applies earth science and climate skills: seismic, well logs, 3D modelling, geostatistics.
 - **[wentorai/research-plugins - inaturalist-api](https://github.com/wentorai/research-plugins/tree/main/skills/domains/ecology/inaturalist-api)** - 🌐 Queries the iNaturalist API for biodiversity observation data.
@@ -233,7 +238,7 @@ Essay structuring, academic research, and literature analysis. See [Language Lea
 Four entries overlap on planning and drafting a paper with no prior note on how they differ. **kgraph57/paper-writer-skill** is scoped to IMRAD-structured scientific manuscripts — lab reports and write-ups with a fixed intro/methods/results/discussion shape. **Master-cai/Research-Paper-Writing-Skills** is a general-purpose planning-and-writing package for a research paper, not tied to one structure. **lishix520/academic-paper-skills** covers the same ground but adds reviewer-simulated quality checkpoints at each stage, for when you want the draft pressure-tested as you go. **tizzy916/humanities-writing-companion** is for humanities writing specifically, guiding the process from research question through revision rather than a lab-report format.
 
 <details open>
-<summary>Show 16 skills</summary>
+<summary>Show 17 skills</summary>
 
 - **[basicmachines-co/basic-memory - memory-literary-analysis](https://github.com/basicmachines-co/basic-memory/tree/main/skills/memory-literary-analysis)** - Analyzes literary works into a searchable knowledge graph.
 - **[ComposioHQ/awesome-claude-skills - content-research-writer](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/content-research-writer)** - Researches sources, improves hooks, iterates on outlines, and adds citations to essays and articles.
@@ -246,6 +251,7 @@ Four entries overlap on planning and drafting a paper with no prior note on how 
 - **[lishix520/academic-paper-skills](https://github.com/lishix520/academic-paper-skills)** - Plans and drafts academic papers through reviewer-simulated quality checkpoints.
 - **[Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills)** - Skill package for planning and writing research papers.
 - **[NeoLabHQ/context-engineering-kit - write-concisely](https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/docs/skills/write-concisely)** - Applies *The Elements of Style* principles to tighten essays and cut wordiness.
+- **[OneWave-AI/claude-skills - debate-simulator](https://github.com/OneWave-AI/claude-skills/tree/main/debate-simulator)** - Runs structured debates with opposing personas: openings, rebuttals, cross-exam, closings.
 - **[phuryn/pm-skills - grammar-check](https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/grammar-check)** - Flags grammar, logic, and flow errors with targeted fixes, no full rewrite.
 - **[tizzy916/humanities-writing-companion](https://github.com/tizzy916/humanities-writing-companion)** - Guides humanities writing from research question through revision and disclosure.
 - **[wentorai/Research-Claw - citation-styles](https://github.com/wentorai/Research-Claw/tree/main/skills/citation-styles)** - Formats in-text citations and reference lists in MLA, APA, and Chicago style.
@@ -261,7 +267,7 @@ Four entries overlap on planning and drafting a paper with no prior note on how 
 Translation practice, vocabulary drilling, and grammar correction in a target (non-English) language, for IB Language A/B and IGCSE second-language coursework.
 
 <details open>
-<summary>Show 9 skills</summary>
+<summary>Show 10 skills</summary>
 
 - **[13rianK/japanese-tutor](https://github.com/13rianK/japanese-tutor)** - Runs daily Japanese lessons with vocabulary, grammar, and graded practice.
 - **[dinqe/language-tutor](https://github.com/dinqe/language-tutor)** - Diagnoses your level and runs adaptive per-language tutoring sessions with an error ledger.
@@ -269,6 +275,7 @@ Translation practice, vocabulary drilling, and grammar correction in a target (n
 - **[hamsamilton/lang-tutor](https://github.com/hamsamilton/lang-tutor)** - Gives grammar corrections and vocabulary help in your target language.
 - **[JeremyJC67/super-translator](https://github.com/JeremyJC67/super-translator)** - Translates text and explains it through your mother language.
 - **[m98/fluent](https://github.com/m98/fluent)** - Drills vocabulary and corrects target-language writing using spaced repetition.
+- **[Santimator/x3-suite - graded-reader](https://github.com/Santimator/x3-suite/tree/main/ai-tools/graded-reader)** - Writes HSK-leveled Chinese graded readers chapter by chapter with vocabulary validation.
 - **[SkillMedev/skills - language-learning](https://github.com/SkillMedev/skills/tree/main/skills/language-learning)** - Plans language study with mandatory shadowing and early speaking practice.
 - **[tianmind-studio/english-coach](https://github.com/tianmind-studio/english-coach)** - Corrects English mistakes and teaches a micro-lesson during real conversations.
 - **[uriva/language-learning](https://github.com/uriva/language-learning)** - Runs SLA-research-based language lessons across 11 languages with comprehensible input.
@@ -284,7 +291,7 @@ Personal statements, resume building, interview prep, and side-project launches.
 Several resume tools overlap here. To pick one: **tailored-resume-generator** and **resume-tailoring-skill** do plain tailoring to a single job description; **ResumeSkills** adds ATS-compatibility scoring and interview prep; **career-ops** wraps a full job-search workflow that also scores listings and tracks applications; **resume-tailor-plugin** (under [Plugins](#plugins)) is the same tailoring packaged as a full Claude Code plugin rather than a single skill; and **danielrosehill/Claude-Career-Plugin** (also under [Plugins](#plugins)) bundles resume, cover-letter, and interview-prep commands into one broader career-operations plugin.
 
 <details open>
-<summary>Show 16 skills</summary>
+<summary>Show 17 skills</summary>
 
 - **[AnayDhawan/oss-launch](https://github.com/AnayDhawan/oss-launch)** - Shipped a side project? Scaffold the OSS launch files (README/LICENSE/CI/launch plan) and use it as application signal.
 - **[borghei/Claude-Skills - research/grants](https://github.com/borghei/Claude-Skills/tree/main/research/grants)** - Structures a scholarship or grant proposal around fit, narrative, and budget instead of boilerplate.
@@ -295,6 +302,7 @@ Several resume tools overlap here. To pick one: **tailored-resume-generator** an
 - **[fronkt/Academic-Essay-Reviewer](https://github.com/fronkt/Academic-Essay-Reviewer)** - Reviews Common App and UC personal statements via a simulated admissions committee.
 - **[Haadhi76/SOP_Consultant](https://github.com/Haadhi76/SOP_Consultant)** - Drafts and critiques grad-school statements of purpose using genre-analysis research.
 - **[kevinryan-au/claude-cover-letter](https://github.com/kevinryan-au/claude-cover-letter)** - Turns a pasted job posting into a tailored, one-page cover letter.
+- **[noamseg/interview-coach-skill](https://github.com/noamseg/interview-coach-skill)** - Coaches networking outreach, informational-interview requests, and referral asks for job seekers.
 - **[Paramchoudhary/ResumeSkills](https://github.com/Paramchoudhary/ResumeSkills)** - Resume optimization, ATS scoring, and interview prep skills.
 - **[rx290/grant-compass](https://github.com/rx290/grant-compass)** - 🌐 Finds fully-funded scholarships and matching professors scored against your grades.
 - **[santifer/career-ops](https://github.com/santifer/career-ops)** - Scores job listings, tailors resumes, and tracks applications for a job search.
