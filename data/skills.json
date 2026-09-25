@@ -1591,5 +1591,17 @@
       "cursor",
       "copilot"
     ]
+  },
+  {
+    "name": "somenssarkar/gurukul-ai - gurukul-ai-physics",
+    "url": "https://github.com/somenssarkar/gurukul-ai/tree/main/.claude/skills/gurukul-ai-physics",
+    "description": "Tutors physics concepts via Socratic questioning, diagrams, and misconception checks.",
+    "category": "STEM Subjects",
+    "marker": null,
+    "supported_tools": [
+      "claude-code",
+      "cursor",
+      "copilot"
+    ]
   }
 ]
